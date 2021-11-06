@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
     <section class="header">
         <nav>
@@ -19,7 +21,6 @@
                 </ul>
             </div>
         </nav>
-
         <div class="text-box">
             <h1>Check Scam</h1>
 <!--            <p>Easiest way to catch phishing-->
@@ -28,7 +29,9 @@
 
         <div class="drop-zone">
             <span class="drop-zone__prompt">Drop file here or click to upload</span>
-            <input type="file" name="myFile" class="drop-zone__input">
+<!--            <input type="file" name="myFile" class="drop-zone__input">-->
+            <input type="file" name="myFile" class="drop-zone__input" onchange="previewFile()"><br>
+            <p class="content"></p>
         </div>
 
         <script src="./src/main.js"></script>
