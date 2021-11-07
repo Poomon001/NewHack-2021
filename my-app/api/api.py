@@ -11,7 +11,13 @@ def index():
         req = request.data
         print(req)
     return {
-        "name": ["Poom", "Jeet", "Harsh"]
+        "sender": "27",
+        "subject": "10",
+        "cc": "6",
+        "date": "1",
+        "body": "20",
+        "attachments": "10",
+        "total": "74"
     }
 
 if __name__ == '__main__':

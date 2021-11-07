@@ -35,20 +35,6 @@ const DragAndDrop = () => {
     }
   }
 
-  const readText = () => {
-     const [file] = document.getElementsByClassName("dropzone").files;
-       const reader = new FileReader();
-
-    reader.addEventListener("load", () => {
-        // this will then display a text file
-        console.log(reader.result)
-    }, false);
-
-     if (file) {
-        reader.readAsText(file);
-    }
-  }
-
   return (
       <section className="container">
           <div {...getRootProps({className: 'dropzone'})} >

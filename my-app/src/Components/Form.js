@@ -2,10 +2,9 @@ import React, {useState} from "react";
 
 const Form = (props) => {
     const [text, setText] = useState("")
-    console.log(props.data)
     const handleSubmit = (e) => {
         e.preventDefault();
-        const data = { name: this.props.data};
+        const data = { name: props.data};
         console.log('submit');
         fetch('/myAPI', {
           method: 'POST',
