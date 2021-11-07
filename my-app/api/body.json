@@ -1,0 +1,28 @@
+[
+    [
+        "",
+        "Money loGin  &&&& Job \r\n\r\nBlank line above\r\n\r\ngoogle.com - Correct link\r\n\r\nSample Text <http://randomlink.org/qrqwrqwrqwrqwrqwrqwr/qwrqwrqwrqwrqwrqw/rqwrqwrqwrqwrqwrqwrqwrqwr>\r\nDifferent text from link\r\n",
+        [
+            [
+                "Content-Type",
+                "text/plain; charset=\"UTF-8\""
+            ]
+        ],
+        "00000000000052415305d021a081"
+    ],
+    [
+        "quoted-printable",
+        "<div dir=\"ltr\">Money loGin  &&&& Job <div><br></div><div>Blank line above</div><div><br></div><div><a href=\"http://google.com/\" target=\"_blank\">google.com</a>\u00a0- Correct link</div><div><br></div><div><a href=\"http://randomlink.org/qrqwrqwrqwrqwrqwrqwr/qwrqwrqwrqwrqwrqw/rqwrqwrqwrqwrqwrqwrqwrqwr\" target=\"_blank\">Sample Text</a><br></div><div>Different text from link</div></div>\r\n",
+        [
+            [
+                "Content-Type",
+                "text/html; charset=\"UTF-8\""
+            ],
+            [
+                "Content-Transfer-Encoding",
+                "quoted-printable"
+            ]
+        ],
+        "00000000000052415305d021a081"
+    ]
+]
