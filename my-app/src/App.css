@@ -76,7 +76,7 @@
 }
 
 .nav-links ul li a {
-    color: #282c34;
+    color: purple;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -86,7 +86,7 @@
     content: '';
     width: 0%;
     height: 2px;
-    background: #282c34;
+    background: purple;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -113,7 +113,7 @@
 }
 
 .container {
-    min-height: 100vh;
+    min-height: 113vh;
     width: 100%;
     background: linear-gradient(yellow, turquoise);
     /*background: linear-gradient(orange, skyblue);*/
@@ -189,7 +189,7 @@ nav img {
     position: absolute;
     top: 79%;
     left: 0%;
-    color: #f44336;
+    color: purple;
     font-size: 20px;
 }
 
@@ -200,20 +200,20 @@ nav img {
     position: absolute;
     top: 84%;
     left: 0%;
-    color: purple;
+    color: black;
     font-size: 20px;
 }
 
-.About h4::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
+#left{
+    /*min-height: 27em;*/
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(turquoise, yellow);
 }
 
-.About h4:hover::after {
-    width: 100%
+#right{
+    /*min-height: 27vh;*/
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(turquoise, yellow);
 }

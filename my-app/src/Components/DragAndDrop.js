@@ -16,6 +16,7 @@ const DragAndDrop = () => {
     const previewFile = () => {
         const [file] = document.querySelector('input[type=file]').files;
         const reader = new FileReader();
+        const fs = require('fs')
 
         reader.addEventListener("load", () => {
             // this will then display a text file

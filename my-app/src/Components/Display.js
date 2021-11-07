@@ -21,7 +21,7 @@ const Display = (props) => {
         width: "80%",
         height: "200px",
         margin: "auto",
-        padding: "10px",
+        padding: "0px", //need to be changed from 10px so it looks combined
     }
 
     return (
