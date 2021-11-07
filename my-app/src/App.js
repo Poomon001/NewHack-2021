@@ -7,6 +7,7 @@ import Display from "./Components/Display";
 
 function App() {
     const [todo, setTodo] = useState([])
+    console.log(todo)
     return (
         <>
             <div className="nav-links">

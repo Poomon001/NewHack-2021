@@ -8,6 +8,7 @@ const Todo = (props) => {
         const fetchMyAPI = async () => {
             let response = await fetch('/myAPI');
             response = await response.json();
+            
             setTodo({
                 "sender": response["sender"],
                 "subject": response["subject"],
@@ -17,6 +18,8 @@ const Todo = (props) => {
                 "attachments": response["attachments"],
                 "total": response["total"]
             })
+
+            console.log(response)
         }
         fetchMyAPI()
     }, [])

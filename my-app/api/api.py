@@ -15,6 +15,7 @@ import requests
 
 app = Flask(__name__, static_folder="../build")
 cors = CORS(app)
+score = [0,0,0,0,0,0,0]
 
 def json_serial(obj):
     if isinstance(obj, datetime):
@@ -342,35 +343,46 @@ def calculate_score(filename):
     # print("Total Score: " + str(total))
     # print("Percentage: " + str(total) + "%")
 
-    values = [round(sender_score, 2), round(cc_score, 2), round(subject_score, 2), round(date_score, 2), round(body_score, 2), round(attachments_score, 2)]
-
+    #values = [round(sender_score, 2), round(cc_score, 2), round(subject_score, 2), round(date_score, 2), round(body_score, 2), round(attachments_score, 2)]
+    values = [int(sender_score), int(cc_score), int(subject_score), int(date_score), int(body_score), int(attachments_score)]
     # print(values)
 
-    values.append(total)
+    values.append(int(total))
 
     return values
 
 @app.route("/myAPI", methods=['GET', "POST"])
 def index():
+    score = [0,0,0,0,0,0,0]
     if request.method == 'POST':
         print('post app')
-        req = request.data
+        
+        #score = [0,0,0,0,0,0,0]
 
+        req = request.data
         ep = eml_parser.EmlParser()
+        
 
         try:
-            print(calculate_score(req))
+            score = (calculate_score(req))
+            print(score)
         except (Exception):
             print()
 
+        # f = open("scores.txt", "w")
+        # for s in score:
+        #     f.write(s)
+        # f.close()
+
+
     return {
-        "sender": "27",
-        "subject": "10",
-        "cc": "6",
-        "date": "1",
-        "body": "20",
-        "attachments": "10",
-        "total": "74"
+        "sender": score[0],
+        "subject": score[2],
+        "cc": score[1],
+        "date": score[3],
+        "body": score[4],
+        "attachments": score[5],
+        "total": score[6]
     }
 
 if __name__ == '__main__':
