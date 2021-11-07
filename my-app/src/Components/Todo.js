@@ -1,6 +1,5 @@
-import React, {useEffect, useState} from "react";
-import FsLightbox from 'fslightbox-react';
-
+import React from "react";
+import {useEffect} from "react"
 const Todo = (props) => {
     const {todo, setTodo} = props
 
