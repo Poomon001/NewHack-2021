@@ -1,10 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 import {useDropzone} from 'react-dropzone';
+import Form from './Form';
 
 const fileTypes = ["TXT"];
 
 
 const DragAndDrop = () => {
+    const [text, setText] = useState('')
     const {acceptedFiles, displayContents, getRootProps, getInputProps} = useDropzone();
 
     const files = acceptedFiles.map(file => (
@@ -19,14 +21,15 @@ const DragAndDrop = () => {
 
         reader.addEventListener("load", () => {
             // this will then display a text file
-            console.log(reader.result)
+            //console.log(reader.result)
+            setText(reader.result)
         }, false);
 
         if (file) {
             reader.readAsText(file);
             var x = document.getElementById("popUp");
             x.style.display = "block"
-            console.log(file.name)
+            //console.log(file.name)
             x.dataset.label = file.name;
         }
 
@@ -61,6 +64,7 @@ const DragAndDrop = () => {
                 <h1 className="Header">Check Spam</h1>
                 <ul>{files}</ul>
             </aside>
+            <Form text={text}/>
         </section>);
 }
 
