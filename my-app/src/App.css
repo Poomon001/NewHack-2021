@@ -113,7 +113,7 @@
 }
 
 .container {
-    min-height: 113vh;
+    min-height: 85.8vh;
     width: 100%;
     background: linear-gradient(yellow, turquoise);
     /*background: linear-gradient(orange, skyblue);*/
@@ -182,16 +182,7 @@ nav img {
     text-align: center;
 }
 
-.About h4{
-    text-align: center;
-    width: 100%;
-    padding: 30px 0;
-    position: absolute;
-    top: 79%;
-    left: 0%;
-    color: purple;
-    font-size: 20px;
-}
+
 
 .About p{
     text-align: center;
