@@ -19,9 +19,7 @@ const Display = (props) => {
 
     const wrapper = {
         width: "80%",
-        height: "200px",
         margin: "auto",
-        padding: "0px", //need to be changed from 10px so it looks combined
     }
 
     return (
