@@ -1,5 +1,6 @@
-import React from "react";
+import React, {useState} from "react";
 import {useDropzone} from 'react-dropzone';
+import Form from "./Form";
 
 const fileTypes = ["TXT"];
 
@@ -18,8 +19,16 @@ const DragAndDrop = () => {
 
     reader.addEventListener("load", () => {
         // this will then display a text file
-        console.log(reader.result)
-    }, false);
+        const data = { name: reader.result};
+        console.log('submit');
+        fetch('/myAPI', {
+              method: 'POST',
+              headers: {
+                'Content-Type' : 'application/json'
+              },
+              body: JSON.stringify({content: data}),
+            })
+        }, false);
 
      if (file) {
         reader.readAsText(file);
