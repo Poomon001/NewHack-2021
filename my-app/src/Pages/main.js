@@ -36,20 +36,21 @@ document.querySelectorAll(".drop-zone__input").forEach(inputElement => {
         }
 
         dropZoneElement.classList.remove("drop-zone--over");
-        
-        const [file] = document.querySelector('input[type=file]').files;
-        const reader = new FileReader();
 
-        //load the file data into console
-        reader.addEventListener("load", () => {
-            // this will then display a text file
-            console.log(reader.result)
-            // content.innerHTML
-        }, false);
-
-        if (file) {
-            reader.readAsText(file);
-        }
+        // const [file] = document.querySelector('input[type=file]').files;
+        // const reader = new FileReader();
+        //
+        // //load the file data into console
+        // reader.addEventListener("load", () => {
+        //     // this will then display a text file
+        //     console.log(reader.result)
+        //     // content.innerHTML
+        // }, false);
+        //
+        // if (file) {
+        //     reader.readAsText(file);
+        // }
+        previewFile()
     });
 });
 
