@@ -1,7 +1,9 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
+import FsLightbox from 'fslightbox-react';
 
 const Todo = (props) => {
     const {todo, setTodo} = props
+
     useEffect(() => {
         const fetchMyAPI = async () => {
             let response = await fetch('/myAPI');
@@ -19,8 +21,7 @@ const Todo = (props) => {
         fetchMyAPI()
     }, [])
 
-    return (<>
-        </>);
+    return (<></>);
 
 }
 

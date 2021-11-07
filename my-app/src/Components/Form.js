@@ -2,19 +2,15 @@ import React from "react";
 
 const Form = (props) => {
 
-    if(props) {
-        const data = {name: props.text};
-        console.log('submit');
+    if(props.text!= "" && props != null) {
         fetch('/myAPI', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({content: data}),
+            body: props.text,
         })
     }
-
-
     return (
         <></>
   );

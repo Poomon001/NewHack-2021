@@ -6,6 +6,7 @@ import Form from "./Form";
 const DragAndDrop = () => {
     const {acceptedFiles, getRootProps, getInputProps} = useDropzone();
     const [text, setText] = useState("")
+    const [toggler, setToggler] = useState(false);
 
     const files = acceptedFiles.map(file => (
         <li key={file.path}>
@@ -38,27 +39,10 @@ const DragAndDrop = () => {
                 <span className="Name">Click to upload file<img src="file.png"/></span>
                 <div id="popUp" style={{display: "none"}}><img src="file.png" style={{radiant: "red"}}/></div>
             </div>
-
-            <div className="nav-links">
-                <nav>
-                    <a className="logo"><img src="new-logo.png" alt=""/></a>
-                    <ul>
-                        <li className="Pages"><a href="">HOME</a></li>
-                        <li className="Pages"><a href="">ABOUT</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <section className="About">
-                <h4>ABOUT</h4>
-                <p>Our plan is to provide peace of mind to the community by allowing them to protect their privacy by checking suspicious activities using our web application. </p>
-            </section>
-
-            <aside>
-                <h1 className="Header">Check Spam</h1>
-                <ul>{files}</ul>
-            </aside>
             <Form text={text}/>
+            <button className="Name" onClick={() => setToggler(!toggler)}>
+                Toggle Lightbox
+            </button>
         </section>);
 }
 
