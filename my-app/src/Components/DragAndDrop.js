@@ -41,9 +41,9 @@ const DragAndDrop = () => {
                 <div id="popUp" style={{display: "none"}}><img src="file.png" style={{radiant: "red"}}/></div>
             </div>
             <Form text={text}/>
-            <button className="Name" onClick={() => setToggler(!toggler)}>
+            {/* <button className="Name" onClick={() => setToggler(!toggler)}>
                 Toggle Lightbox
-            </button>
+            </button> */}
         </section>);
 }
 

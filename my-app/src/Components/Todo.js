@@ -1,13 +1,18 @@
-import React, {useEffect, useState} from "react";
+import React, {Suspense, useEffect, useState} from "react";
 import FsLightbox from 'fslightbox-react';
+
 
 const Todo = (props) => {
     const {todo, setTodo} = props
-
+    
     useEffect(() => {
+            console.log("hello")
         const fetchMyAPI = async () => {
+
+            console.log("bye")
             let response = await fetch('/myAPI');
             response = await response.json();
+            console.log(response)
             
             setTodo({
                 "sender": response["sender"],

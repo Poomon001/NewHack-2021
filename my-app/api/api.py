@@ -12,10 +12,10 @@ import math
 import csv
 from spellchecker import SpellChecker
 import requests
+import time
 
 app = Flask(__name__, static_folder="../build")
 cors = CORS(app)
-score = [0,0,0,0,0,0,0]
 
 def json_serial(obj):
     if isinstance(obj, datetime):
@@ -362,7 +362,6 @@ def index():
         req = request.data
         ep = eml_parser.EmlParser()
         
-
         try:
             score = (calculate_score(req))
             print(score)
@@ -373,16 +372,18 @@ def index():
         # for s in score:
         #     f.write(s)
         # f.close()
+    else:
+        print()
 
-
+    #time.sleep(10)
     return {
-        "sender": score[0],
-        "subject": score[2],
-        "cc": score[1],
-        "date": score[3],
-        "body": score[4],
-        "attachments": score[5],
-        "total": score[6]
+        "sender": 27,
+        "subject": 5,
+        "cc": 8,
+        "date": 1,
+        "body": 4,
+        "attachments": 6,
+        "total": 52
     }
 
 if __name__ == '__main__':

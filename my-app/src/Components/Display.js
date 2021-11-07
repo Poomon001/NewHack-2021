@@ -4,12 +4,14 @@ import Total from "./Total";
 
 const Display = (props) => {
     const graphStyle1 = {
+        display: "none",
         height: "20em",
         width: "22em",
         float: "left",
     }
 
     const graphStyle2 = {
+        display: "none",
         height: "20em",
         width: "21em",
         marginLeft: "30%",

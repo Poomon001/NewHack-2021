@@ -1,8 +1,9 @@
 import React from "react";
 
 const Form = (props) => {
-
-    if(props.text!= "" && props != null) {
+    //console.log(props)
+    if(props.text !== '' && props.text !== undefined && props.text !== null) {
+        console.log(props)
         fetch('/myAPI', {
             method: 'POST',
             headers: {
@@ -10,6 +11,8 @@ const Form = (props) => {
             },
             body: props.text,
         })
+        document.getElementById("left").style.display = "inline";
+        document.getElementById("right").style.display = "inline";
     }
     return (
         <></>

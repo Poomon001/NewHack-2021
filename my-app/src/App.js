@@ -21,9 +21,9 @@ function App() {
             </div>
 
             <section className="About">
-                <h4>ABOUT</h4>
-                <p>Our plan is to provide peace of mind to the community by allowing them to protect their privacy by
-                    checking suspicious activities using our web application. </p>
+                {/* <h4>ABOUT</h4> */}
+                <p>Our plan is to provide peace of mind to the community by giving users a way to check the likelihood of an email
+                    containing malicious intentions, specifically for phishing. </p>
             </section>
 
             <div className="App">
