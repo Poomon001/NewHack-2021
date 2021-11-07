@@ -4,6 +4,7 @@ import {Bar, Doughnut, Line, Pie} from "react-chartjs-2";
 const Factors = (props) => {
     const {sender, subject, cc, date, body, attachments, total} = props.todo
     const [type, setType] = useState(1)
+    console.log(attachments)
     const graph = {
         labels: ["Sender", "Subject", "CC", "Date", "Body Content", "Attachments"],
         datasets: [{

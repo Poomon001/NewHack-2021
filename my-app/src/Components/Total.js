@@ -5,8 +5,6 @@ const Total = (props) => {
     const [type, setType] = useState(1)
     const high = props.todo.total
     const low = 100 - high
-    console.log(low)
-    console.log(high)
     const graph = {
         labels: ["High Risk", "Low Risk"],
         datasets: [{

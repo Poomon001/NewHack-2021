@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import {useDropzone} from 'react-dropzone';
-
-const fileTypes = ["TXT"];
+import Form from "./Form";
 
 
 const DragAndDrop = () => {
-    const {acceptedFiles, displayContents, getRootProps, getInputProps} = useDropzone();
+    const {acceptedFiles, getRootProps, getInputProps} = useDropzone();
+    const [text, setText] = useState("")
 
     const files = acceptedFiles.map(file => (
         <li key={file.path}>
@@ -19,24 +19,21 @@ const DragAndDrop = () => {
 
         reader.addEventListener("load", () => {
             // this will then display a text file
-            console.log(reader.result)
+            setText(reader.result)
         }, false);
 
         if (file) {
             reader.readAsText(file);
             var x = document.getElementById("popUp");
             x.style.display = "block"
-            console.log(file.name)
             x.dataset.label = file.name;
         }
-
-
     }
 
     return (
         <section className="container">
             <div {...getRootProps({className: 'dropzone'})} >
-                <input type="file" {...getInputProps()} onChange={previewFile}/>
+                <input type="file" {...getInputProps()} onChange={previewFile} accept=".eml"/>
                 {/*<p className="Name">Click to upload file</p>*/}
                 <span className="Name">Click to upload file<img src="file.png"/></span>
                 <div id="popUp" style={{display: "none"}}><img src="file.png" style={{radiant: "red"}}/></div>
@@ -61,6 +58,7 @@ const DragAndDrop = () => {
                 <h1 className="Header">Check Spam</h1>
                 <ul>{files}</ul>
             </aside>
+            <Form text={text}/>
         </section>);
 }
 
