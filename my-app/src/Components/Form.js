@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 
-const Form = (props) => {
+const Form = () => {
     const [text, setText] = useState("")
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        const data = { name: props.data};
+        const data = { name: text };
         console.log('submit');
         fetch('/myAPI', {
           method: 'POST',
@@ -19,7 +20,7 @@ const Form = (props) => {
         setText(e.target.value)
     }
     return (
-        <section id="app">
+        <section id="nothing">
           <form action="" onSubmit={handleSubmit}>
             <input type="text" value={text} onChange={handleChange} />
             <button> submit </button>

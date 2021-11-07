@@ -20,7 +20,7 @@ const Todo = (props) => {
         fetchMyAPI()
     }, [])
 
-    return (<div>{todo["total"]}</div>);
+    return (<></>);
 
 }
 
