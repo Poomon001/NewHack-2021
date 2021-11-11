@@ -1,20 +1,16 @@
-import './App.css';
-import Todo from "./Components/Todo";
+import "./App.css";
 import DragAndDrop from "./Components/DragAndDrop";
-import Form from "./Components/Form";
-import React, {useState, useEffect} from "react"
+import React, { useState, useEffect } from "react";
 import Display from "./Components/Display";
-import FsLightbox from 'fslightbox-react';
+import FsLightbox from "fslightbox-react";
 
 function App() {
-    const [todo, setTodo] = useState([])
+  const [todo, setTodo] = useState([]);
   return (
-      <div className="App">
-          <Todo todo={todo} setTodo={setTodo}/>
-          <Form/>
-          <DragAndDrop/>
-          <Display todo={todo}/>
-      </div>
+    <div className="App">
+      <DragAndDrop />
+      <Display todo={todo} />
+    </div>
   );
 }
 
