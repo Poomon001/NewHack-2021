@@ -10,8 +10,14 @@ def post():
     print('\n+========== post app ==========+\n')
     req = request.data
     # print(req)
-    return {"status": 201, 
-            "data": "hello world"}
+    return {"sender": 20,
+            "subject": 4, 
+            "cc": 10,
+            "date": 1,
+            "bodyContent": 20,
+            "attachments": 10,
+            "total": 65
+            }
 
 
 if __name__ == '__main__':

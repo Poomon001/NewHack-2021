@@ -1,6 +1,7 @@
 const Request = (text) => {
   // send a request to Flask RestAPIs if data is passed
   const postApi = async (text) => {
+    console.log("submit");
     let response = await fetch("/postAPI", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -8,11 +9,11 @@ const Request = (text) => {
     });
     response = await response.json();
 
-    console.log(response);
+    return response;
   };
 
   if (text) {
-    postApi(text);
+    return postApi(text);
   }
 };
 

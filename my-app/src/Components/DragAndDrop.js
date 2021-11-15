@@ -1,16 +1,12 @@
 import React, { useState } from "react";
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
+import Display from "./Display";
 
 const DragAndDrop = () => {
-  const { acceptedFiles, getRootProps, getInputProps } = useDropzone();
-  const [text, setText] = useState("");
-
-  const files = acceptedFiles.map((file) => (
-    <li key={file.path}>
-      {file.path} - {file.size} bytes
-    </li>
-  ));
+  const { getRootProps, getInputProps } = useDropzone();
+  const [result, setResult] = useState({});
+  const [open, setOpen] = useState(false);
 
   const handleOnChange = () => {
     const [file] = document.querySelector("input[type=file]").files;
@@ -19,9 +15,17 @@ const DragAndDrop = () => {
     reader.addEventListener(
       "load",
       () => {
-        // this will then display a text file
-        setText(reader.result);
-        Request(reader.result);
+        let text = reader.result;
+
+        // send a post text to Flask api and take a response from the api
+        Request(text)
+          .then((res) => {
+            // set the returned result from api
+            setResult(res);
+            // set to open a graph
+            setOpen(true);
+          })
+          .catch((err) => console.log("error on DragAndDrop:", err));
       },
       false
     );
@@ -35,54 +39,29 @@ const DragAndDrop = () => {
   };
 
   return (
-    <section className="container">
-      <div {...getRootProps({ className: "dropzone" })}>
-        <input
-          type="file"
-          {...getInputProps()}
-          onChange={handleOnChange}
-          accept=".eml"
-        />
-        {/*<p className="Name">Click to upload file</p>*/}
-        <span className="Name">
-          Click to upload file
-          <img src="file.png" />
-        </span>
-        <div id="popUp" style={{ display: "none" }}>
-          <img src="file.png" style={{ radiant: "red" }} />
+    <>
+      {/* render graphs */}
+      {open && <Display todo={result} />}
+
+      {/* upload form */}
+      <section className="container">
+        <div {...getRootProps({ className: "dropzone" })}>
+          <input
+            type="file"
+            {...getInputProps()}
+            onChange={handleOnChange}
+            accept=".eml"
+          />
+          <span className="Name">
+            Click to upload file
+            <img src="file.png" />
+          </span>
+          <div id="popUp" style={{ display: "none" }}>
+            <img src="file.png" style={{ radiant: "red" }} />
+          </div>
         </div>
-      </div>
-
-      <div className="nav-links">
-        <nav>
-          <a className="logo">
-            <img src="new-logo.png" alt="" />
-          </a>
-          <ul>
-            <li className="Pages">
-              <a href="">HOME</a>
-            </li>
-            <li className="Pages">
-              <a href="">ABOUT</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-
-      <section className="About">
-        <h4>ABOUT</h4>
-        <p>
-          Our plan is to provide peace of mind to the community by allowing them
-          to protect their privacy by checking suspicious activities using our
-          web application.{" "}
-        </p>
       </section>
-
-      <aside>
-        <h1 className="Header">Check Spam</h1>
-        <ul>{files}</ul>
-      </aside>
-    </section>
+    </>
   );
 };
 

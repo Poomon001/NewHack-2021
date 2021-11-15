@@ -1,15 +1,15 @@
 import "./App.css";
-import DragAndDrop from "./Components/DragAndDrop";
-import React, { useState, useEffect } from "react";
-import Display from "./Components/Display";
+import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import NavBar from "./Components/NavBar";
+import Content from "./Components/Content";
 
 function App() {
   const [todo, setTodo] = useState([]);
   return (
     <div className="App">
-      <DragAndDrop />
-      <Display todo={todo} />
+      <NavBar />
+      <Content />
     </div>
   );
 }
