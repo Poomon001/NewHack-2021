@@ -18,17 +18,16 @@ const Display = (props) => {
   };
 
   const wrapper = {
-    width: "80%",
-    margin: "auto",
+    display: "inline-block",
   };
 
   return (
     <>
       <div style={wrapper}>
-        <div style={graphStyle1} id="left">
+        <div /* style={graphStyle1} */ id="left">
           <Factors todo={props.todo} />
         </div>
-        <div style={graphStyle2} id="right">
+        <div /* style={graphStyle2} */ id="right">
           <Total todo={props.todo} />
         </div>
       </div>

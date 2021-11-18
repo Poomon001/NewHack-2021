@@ -4,10 +4,10 @@ import React, { useState } from "react";
 
 const Content = () => {
   return (
-    <>
+    <section className="container">
       <DragAndDrop />
       <About />
-    </>
+    </section>
   );
 };
 

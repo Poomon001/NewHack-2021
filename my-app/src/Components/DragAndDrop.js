@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
 import Display from "./Display";
+import LightBoxButton from "./LightboxButton";
+import { ResultContext } from "../App";
 
 const DragAndDrop = () => {
   const { getRootProps, getInputProps } = useDropzone();
-  const [result, setResult] = useState({});
   const [open, setOpen] = useState(false);
+  const { setResult } = useContext(ResultContext);
 
   const handleOnChange = () => {
     const [file] = document.querySelector("input[type=file]").files;
@@ -40,11 +42,8 @@ const DragAndDrop = () => {
 
   return (
     <>
-      {/* render graphs */}
-      {open && <Display todo={result} />}
-
       {/* upload form */}
-      <section className="container">
+      <section className="topContent">
         <div {...getRootProps({ className: "dropzone" })}>
           <input
             type="file"
@@ -60,6 +59,8 @@ const DragAndDrop = () => {
             <img src="file.png" style={{ radiant: "red" }} />
           </div>
         </div>
+        {/* render graphs */}
+        {open && <LightBoxButton />}
       </section>
     </>
   );
