@@ -117,10 +117,7 @@
 
 .container {
   min-height: 100vh;
-  width: 100%;
   background: linear-gradient(yellow, turquoise);
-  /*background: linear-gradient(orange, skyblue);*/
-  position: relative;
 }
 
 @keyframes App-logo-spin {
@@ -186,17 +183,12 @@ nav img {
 
 .topContent {
   position: relative;
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
   top: 40vh;
 }
 
 .About {
   position: relative;
   text-align: center;
-  height: auto;
-  box-sizing: border-box;
   top: 80vh;
 }
 
