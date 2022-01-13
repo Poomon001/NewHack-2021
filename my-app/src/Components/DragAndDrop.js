@@ -1,17 +1,16 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useCallback } from "react";
+// https://react-dropzone.js.org/
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
-import Display from "./Display";
 import LightBoxButton from "./LightboxButton";
 import { ResultContext } from "../App";
 
 const DragAndDrop = () => {
-  const { getRootProps, getInputProps } = useDropzone();
   const [open, setOpen] = useState(false);
   const { setResult } = useContext(ResultContext);
 
-  const handleOnChange = () => {
-    const [file] = document.querySelector("input[type=file]").files;
+  const onDrop = useCallback((acceptedFiles) => {
+    const [file] = acceptedFiles;
     const reader = new FileReader();
 
     reader.addEventListener(
@@ -38,28 +37,38 @@ const DragAndDrop = () => {
       x.style.display = "block";
       x.dataset.label = file.name;
     }
-  };
+  }, []);
+
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
 
   return (
     <>
       {/* upload form */}
       <section className="topContent">
-        <div {...getRootProps({ className: "dropzone" })}>
-          <input
-            type="file"
-            {...getInputProps()}
-            onChange={handleOnChange}
-            accept=".eml"
-          />
-          <span className="Name">
-            Click to upload file
-            <img src="file.png" />
-          </span>
+        <div {...getRootProps()}>
+          <input {...getInputProps()} />
+          {isDragActive ? (
+            <>
+              <span className="Name">
+                Drop file here...
+                <img src="file.png" />
+              </span>
+              <span style={{ display: "none" }}>
+                {(document.getElementById("popUp").style.display = "none")}
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="Name">
+                Click or drop file here
+                <img src="file.png" />
+              </span>
+            </>
+          )}
           <div id="popUp" style={{ display: "none" }}>
             <img src="file.png" style={{ radiant: "red" }} />
           </div>
         </div>
-        {/* render graphs */}
         {open && <LightBoxButton />}
       </section>
     </>

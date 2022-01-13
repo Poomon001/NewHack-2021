@@ -1,0 +1,28 @@
+[
+    [
+        "",
+        "Hi Spiderman\r\n\r\nClick this link <http://google.com/> to secure your spot.\r\n",
+        [
+            [
+                "Content-Type",
+                "text/plain; charset=\"UTF-8\""
+            ]
+        ],
+        "00000000000052415305d021a081"
+    ],
+    [
+        "quoted-printable",
+        "<div dir=\"ltr\">Hello Spiderman<div><br></div><div>Blank line above</div><div><br></div><div><a href=\"http://google.com/\" target=\"_blank\">google.com</a>\u00a0- Correct link</div><div><br></div><div><a href=\"http://python.org/\" target=\"_blank\">Sample Text</a><br></div><div>Different text from link</div></div>\r\n",
+        [
+            [
+                "Content-Type",
+                "text/html; charset=\"UTF-8\""
+            ],
+            [
+                "Content-Transfer-Encoding",
+                "quoted-printable"
+            ]
+        ],
+        "00000000000052415305d021a081"
+    ]
+]
