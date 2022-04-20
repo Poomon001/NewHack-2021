@@ -51,7 +51,7 @@ const DragAndDrop = () => {
             <>
               <span className="Name">
                 Drop file here...
-                <img src="file.png" />
+                <img src="file.png" alt="file" />
               </span>
               <span style={{ display: "none" }}>
                 {(document.getElementById("popUp").style.display = "none")}
@@ -61,12 +61,12 @@ const DragAndDrop = () => {
             <>
               <span className="Name">
                 Click or drop file here
-                <img src="file.png" />
+                <img src="file.png" alt="file" />
               </span>
             </>
           )}
           <div id="popUp" style={{ display: "none" }}>
-            <img src="file.png" style={{ radiant: "red" }} />
+            <img src="file.png" alt="file" style={{ radiant: "red" }} />
           </div>
         </div>
         {open && <LightBoxButton />}
