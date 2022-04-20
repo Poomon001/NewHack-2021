@@ -209,7 +209,9 @@ def spell_check(text, score_limit):
 
 
 def hidden_body_urls(text):
-    urls = re.findall(r'<(.+)>', text)
+
+    ##CHANGED LINE BELOW
+    urls = re.findall(r'<.*\/{2}([^@<>\/]*)\/*>', text)
 
     if len(urls) == 0:
         return 0
@@ -228,7 +230,8 @@ def hidden_body_urls(text):
 
     for u in urls:
         for d in r:
-            if d == re.findall('/+(.+)/+',u)[0]:
+            ##CHANGED LINE BELOW
+            if d == u:
                 utotal += 5
 
         if 55 <= len(u) < 105:
