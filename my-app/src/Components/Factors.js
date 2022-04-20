@@ -33,32 +33,32 @@ const Factors = (props) => {
     ],
   };
   const onClickHandler = () => {
-    if (type == 4) {
+    if (type === 4) {
       setType(1);
     } else {
       setType(type + 1);
     }
   };
   const renderGraph = () => {
-    if (type == 1) {
+    if (type === 1) {
       return (
         <div>
           <Doughnut data={graph} />
         </div>
       );
-    } else if (type == 2) {
+    } else if (type === 2) {
       return (
         <div>
           <Line data={graph} />
         </div>
       );
-    } else if (type == 3) {
+    } else if (type === 3) {
       return (
         <div>
           <Bar data={graph} />
         </div>
       );
-    } else if (type == 4) {
+    } else if (type === 4) {
       return (
         <div>
           <Pie data={graph} />

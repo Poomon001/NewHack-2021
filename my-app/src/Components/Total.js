@@ -18,26 +18,26 @@ const Total = (props) => {
     ],
   };
   const onClickHandler = () => {
-    if (type == 3) {
+    if (type === 3) {
       setType(1);
     } else {
       setType(type + 1);
     }
   };
   const renderGraph = () => {
-    if (type == 1) {
+    if (type === 1) {
       return (
         <div>
           <Doughnut data={graph} />
         </div>
       );
-    } else if (type == 2) {
+    } else if (type === 2) {
       return (
         <div>
           <Bar data={graph} />
         </div>
       );
-    } else if (type == 3) {
+    } else if (type === 3) {
       return (
         <div>
           <Pie data={graph} />
