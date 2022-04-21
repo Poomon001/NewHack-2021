@@ -12,6 +12,16 @@ def post():
 
     score = calculate_score(req)
 
+    # convert to 100%
+    total = score[6]
+    if total != 0:
+        for i in range(len(score)-1):
+            score[i] = (score[i]*100)//total
+    else:
+        score[6] = 0;
+    
+    print(score)
+
     return {"sender": score[0],
             "subject": score[2], 
             "cc": score[1],

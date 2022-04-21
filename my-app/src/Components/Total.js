@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Bar, Doughnut, Pie } from "react-chartjs-2";
+import { Bar, Doughnut, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
 
 const Total = (props) => {
   const [type, setType] = useState(1);
