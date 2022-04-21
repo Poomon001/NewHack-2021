@@ -16,9 +16,9 @@ def post():
     total = score[6]
     if total != 0:
         for i in range(len(score)-1):
-            score[i] = (score[i]*100)//total
+            score[i] = round(((score[i]/total)*100),2) 
     else:
-        score[6] = 0;
+        score[6] = 0
     
     print(score)
 
