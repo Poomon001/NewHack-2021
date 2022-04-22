@@ -8,7 +8,6 @@ const Request = (text) => {
       body: text,
     });
     response = await response.json();
-
     return response;
   };
 

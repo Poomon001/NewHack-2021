@@ -4,8 +4,12 @@ import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
 import LightBoxButton from "./LightboxButton";
 import { ResultContext } from "../App";
+import { trackPromise } from "react-promise-tracker";
+import Loader from "./Loader";
+import { usePromiseTracker } from "react-promise-tracker";
 
 const DragAndDrop = () => {
+  const { promiseInProgress } = usePromiseTracker();
   const [open, setOpen] = useState(false);
   const { setResult } = useContext(ResultContext);
 
@@ -17,16 +21,15 @@ const DragAndDrop = () => {
       "load",
       () => {
         let text = reader.result;
-
-        // send a post text to Flask api and take a response from the api
-        Request(text)
-          .then((res) => {
+        trackPromise(
+          // send a post text to Flask api and take a response from the api
+          Request(text).then((res) => {
             // set the returned result from api
             setResult(res);
             // set to open a graph
             setOpen(true);
           })
-          .catch((err) => console.log("error on DragAndDrop:", err));
+        ).catch((err) => console.log("error on DragAndDrop:", err));
       },
       false
     );
@@ -69,7 +72,7 @@ const DragAndDrop = () => {
             <img src="file.png" alt="file" style={{ radiant: "red" }} />
           </div>
         </div>
-        {open && <LightBoxButton />}
+        {promiseInProgress ? <Loader /> : open && <LightBoxButton />}
       </section>
     </>
   );
