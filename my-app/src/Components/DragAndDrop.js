@@ -9,7 +9,10 @@ import Loader from "./Loader";
 import { usePromiseTracker } from "react-promise-tracker";
 
 const DragAndDrop = () => {
-  const { promiseInProgress } = usePromiseTracker();
+  const { promiseInProgress } = usePromiseTracker({
+    area: "email-area",
+    delay: 0,
+  });
   const [open, setOpen] = useState(false);
   const { setResult } = useContext(ResultContext);
 
@@ -28,7 +31,8 @@ const DragAndDrop = () => {
             setResult(res);
             // set to open a graph
             setOpen(true);
-          })
+          }),
+          "email-area"
         ).catch((err) => console.log("error on DragAndDrop:", err));
       },
       false
@@ -72,7 +76,11 @@ const DragAndDrop = () => {
             <img src="file.png" alt="file" style={{ radiant: "red" }} />
           </div>
         </div>
-        {promiseInProgress ? <Loader /> : open && <LightBoxButton />}
+        {promiseInProgress ? (
+          <Loader area="email-area" />
+        ) : (
+          open && <LightBoxButton />
+        )}
       </section>
     </>
   );
