@@ -4,7 +4,7 @@ import Display from "./Display";
 import LightBoxButton from "./LightboxButton";
 
 const Lightbox = (props) => {
-  const { openLightbox, setOpenLightbox } = useContext(LightboxContext);
+  const { openLightbox } = useContext(LightboxContext);
   const { result } = useContext(ResultContext);
   return (
     <>
