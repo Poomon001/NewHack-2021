@@ -1,186 +1,63 @@
 {
     "body": [
         {
-            "boundary": "===============8079210670983230398==",
+            "boundary": "000000000000c9a8d005d031f1d3",
             "content_header": {
-                "content-transfer-encoding": [
-                    "base64"
-                ],
                 "content-type": [
-                    "text/plain; charset=\"utf-8\""
-                ],
-                "mime-version": [
-                    "1.0"
+                    "text/plain; charset=\"UTF-8\""
                 ]
             },
             "content_type": "text/plain",
-            "domain_hash": [
-                "151619ace2f9747f88a314edaaf1fb9d3c40558cccbaeed0154b830faf0ce587",
-                "591bfe88c880df9685d3e298cac2271681a78e017441426ae3d5bd6c73cd3db7"
-            ],
-            "email_hash": [
-                "f6cf8fc7f16a94720ba23a3e66cbdd29203e9b225564ddb782a461978cc76ce6"
-            ],
-            "hash": "d152725bdf3cd36bdd45affa9dad32ea512fe0a1cc0e7ca25654224234e4d476",
-            "uri_hash": [
-                "45c77bc14db8f6c0584c8e862ef533f585b3e7e5af5e2214f71716281067c83c",
-                "cab31cf666f18fb51f24b10c7c8f6319d838255999684026d034669dd66201c1"
-            ]
+            "hash": "e243f54ab94899542f8a365f2dafc362e68c845d6bb5131b2e39df18f02407b8"
         },
         {
-            "boundary": "===============8079210670983230398==",
+            "boundary": "000000000000c9a8d005d031f1d3",
             "content_header": {
-                "content-transfer-encoding": [
-                    "base64"
-                ],
                 "content-type": [
-                    "text/html; charset=\"utf-8\""
-                ],
-                "mime-version": [
-                    "1.0"
+                    "text/html; charset=\"UTF-8\""
                 ]
             },
             "content_type": "text/html",
-            "domain_hash": [
-                "bb026fa460a2755e88182a4b9c92cf584d418c8ea840ccb65e6affb463762759",
-                "151619ace2f9747f88a314edaaf1fb9d3c40558cccbaeed0154b830faf0ce587",
-                "3df9b04b5b0349f53c0e6aabd94a3a56c72b56bdde5528c202ad0acb5c0b129b",
-                "d434adea9d939b4d67d312c1a26a827fd64429f8366a6cb0a31ea3cb391481ea",
-                "5ca704affb6babeebdcfcb6497cb892d79d4a02451068071788e1369fe921705",
-                "3c8b2bbd5af1180dab341c61a990008400c0f4734771d1618913d1a8fa55c929",
-                "3e723b591bdb95ce8f5c9b7032dc572ca97351d0da5efc73459c1fbaf438e43b"
-            ],
-            "hash": "b22f87d2e2c3e163cee60330a3a26a0970b20fcc87454348c2a02d0cbc72dcce",
-            "uri_hash": [
-                "ad9ff9e50ef669fab540d88d8f403b535573532e0ff10774a5326164662dda20",
-                "3e80f406bda676765703ea5c61f92791f8d57b24fad8a1a65e49416531428c37",
-                "7f8ff9a90953a9a19e2fed64134840d45251dc7f96f811694455482b4edeaa57",
-                "1707d0854b7595c2fa70b9a69198235471f9a63f056de1d77d0f434107ae4f00",
-                "2bc084c0b71ed90f6aa1bb5e429c26c4c56fe883fd89d1087c4d5fcbc83de05a",
-                "f7e8a300494987bc143f5405c3b7e98cd8795ab8d1e32821ce5b6887238e403c",
-                "46a2f5876a1c8361a610408a267d618a9ca9ff275fe8dca08f29d8ece9975a15",
-                "acba5af4edbc4511595aeb2aa354392518d872a426bfa84367ef1ad22d3b245c",
-                "368837858329d8adaf9977b76322cb9a2628b9a8de78f7291eb3a822bc24a260",
-                "7c4209305f655aa9c67d1c3b1d1b1c1afd4812c8bbe97d06a0edda9be92e5079",
-                "1e9cc1779cbe8108f58d46208be113ec005d62c6a5e4ec4ffd429373ca166f65",
-                "e5ff5561bc2b17ad92acc44a1f6e642b95701dd7e69fdcaddd8b5c7b1d6eabf4",
-                "e2e0e7b0b11b2cb7a3ec1ebd1f26413dd96e36a2326f5d5ff77c10ec99bc2ed8",
-                "d4c4d3fa48cc7f29910c001a2306974f81532f60989926412c59c295173b34b8"
-            ]
+            "hash": "37de2720e1daadeb9ab448c5e366ba4a2cfa7960cc40fbb8f96742aa2213b89c"
         }
     ],
     "header": {
-        "date": "2021-03-25T14:19:56+00:00",
-        "delivered_to": [
-            "poomon2542@gmail.com"
+        "cc": [
+            "djtherock@hotmail.com",
+            "kevinhart4real@gmail.com"
         ],
-        "from": "hello@duolingo.com",
+        "date": "2021-11-07T04:23:31-08:00",
+        "from": "icecube@yahoo.com",
         "header": {
-            "arc-authentication-results": [
-                "i=1; mx.google.com;       dkim=pass header.i=@duolingo.com header.s=ttcczf5zhduzd2exaoyl5puvrsfehfsn header.b=GPnLmyLX;       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=bNkKeMT5;       spf=pass (google.com: domain of 0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com designates 54.240.31.181 as permitted sender) smtp.mailfrom=0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=duolingo.com"
-            ],
-            "arc-message-signature": [
-                "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=feedback-id:date:message-id:reply-to:subject:to:from:mime-version         :dkim-signature:dkim-signature;        bh=RhxyL7sccF8GsT7AlqFVez8CiowVEZg5pTPrgp8+4Io=;        b=KD+lJ2o+sQT5tk6BhOdI9SMlZnat6co9ntpz+9DSRYLVDgKlTNaV4kaFqAW+zLokzh         VDkpOH3RhPyKPl9qs57cTNWvHDUHbS8zfBFri/SxltEy+Fo3rBoG4SoQ8L4haoWixZ2g         aefH32NMeYSUndg6gMgylqUjRY2+Fe2PvPxIrtq3CY1v4MeiFq7q5i97iP9RvkL20g9H         gYj6kegau0xge3UHH2JH0vOWX2zkrUIZHPgxRdIrToOQRcL1WT/YGna5CWUKclHDBhzx         tuY3vO/usULJexTKgZf+sQf18G91wrdBUTJh7OIJ8PCy66iiW8PRqo1q9wJC6Hy2OQVl         nTsw=="
-            ],
-            "arc-seal": [
-                "i=1; a=rsa-sha256; t=1616681996; cv=none;        d=google.com; s=arc-20160816;        b=c7w6/LQJ2k20+q95GTlcZ8AErNwfEbHtm/Z9wyoNc0+r98Xj8DzhYP4p1fjghypOSQ         qgRwuNEj/kMj4pOqPoS59gIp8bxDqsQTZq3Ml613ebhzklsS/jUsVORkN2bUwSv7LKgZ         b+uXRWKOTBfi5fNQl1IkPaQyRkgeCtDSqI9tJqO1l0gGP4FewTYGRMv6WPPaPsiK+3nd         EHVJ877BpKIQHLtkKbja03R3cpZGjAyh13b/WLHtZ5w2d7YJ9MTu74+t7ulQR5cUw4im         h9qq2/GpWdNV6LEWyhqBPPBHL2DG63jvVOxXm7y/jfzo7WFp00EVsRfaa2helvPjO9Zu         0lNg=="
-            ],
-            "authentication-results": [
-                "mx.google.com;       dkim=pass header.i=@duolingo.com header.s=ttcczf5zhduzd2exaoyl5puvrsfehfsn header.b=GPnLmyLX;       dkim=pass header.i=@amazonses.com header.s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug header.b=bNkKeMT5;       spf=pass (google.com: domain of 0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com designates 54.240.31.181 as permitted sender) smtp.mailfrom=0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com;       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=duolingo.com"
+            "cc": [
+                "Dwayne Johnson <djtherock@hotmail.com>, Kevin Hart <kevinhart4real@gmail.com>"
             ],
             "content-type": [
-                "multipart/alternative; boundary=\"===============8079210670983230398==\""
+                "multipart/alternative; boundary=\"000000000000c9a8d005d031f1d3\""
             ],
             "date": [
-                "Thu, 25 Mar 2021 14:19:56 +0000"
-            ],
-            "delivered-to": [
-                "poomon2542@gmail.com"
-            ],
-            "dkim-signature": [
-                "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;\ts=ttcczf5zhduzd2exaoyl5puvrsfehfsn; d=duolingo.com; t=1616681996;\th=Content-Type:MIME-Version:From:To:Subject:Reply-to:Message-ID:Date;\tbh=RhxyL7sccF8GsT7AlqFVez8CiowVEZg5pTPrgp8+4Io=;\tb=GPnLmyLX7tHXbdUzw4OUFMx97G5rQLdh0K60inNTGwAia2wwYlIekPYW540NBVU3\tNy+wwuhRFLJzcB74ZIMtr84DJMO/jRSS3kX2Rp5IhvrvvkuZ36nDI4r2lDrJNQFbKhD\tnlVggO/BP5Gfu7ncihgJMwLno17koQiB/LrxkJTY=",
-                "v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;\ts=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1616681996;\th=Content-Type:MIME-Version:From:To:Subject:Reply-to:Message-ID:Date:Feedback-ID;\tbh=RhxyL7sccF8GsT7AlqFVez8CiowVEZg5pTPrgp8+4Io=;\tb=bNkKeMT5YwNKM5q2qCf4TThe4q0b7ELqYHSwezZO9LR+5kY22/oQko8VZ6eYEewX\t1/G+AyLCWMWNpMaq3cGsJxJW6yxDfN6q9qjTmr4Cn6w2XrZj8mETfU/tz0YU+LyDg+i\tIpVWtaJDtPFwCKADL1F6aZJFGDdg4Kg7xdGQ+0DY="
-            ],
-            "feedback-id": [
-                "1.us-east-1.RpxhJRmOpL41XzJPFX+GBBQj4+ioASSIVb8HK9KAN9A=:AmazonSES"
+                "Sun, 07 Nov 2021 04:23:31 -0800"
             ],
             "from": [
-                "Duolingo <hello@duolingo.com>"
+                "Ice Cube <Icecube@yahoo.com>"
             ],
             "message-id": [
-                "<0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@email.amazonses.com>"
+                "<CAEyrMpndbkAh2yWj1jRpaxJj8yFe=VpgmXjEzSgJgQFWZ2Prkw@mail.gmail.com>"
             ],
             "mime-version": [
                 "1.0"
             ],
-            "received": [
-                "by 2002:adf:9d8a:0:0:0:0:0 with SMTP id p10csp638945wre;        Thu, 25 Mar 2021 07:19:56 -0700 (PDT)",
-                "from a31-181.smtp-out.amazonses.com (a31-181.smtp-out.amazonses.com. [54.240.31.181])        by mx.google.com with ESMTPS id j16si1060621vsn.346.2021.03.25.07.19.56        for <poomon2542@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);        Thu, 25 Mar 2021 07:19:56 -0700 (PDT)"
-            ],
-            "received-spf": [
-                "pass (google.com: domain of 0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com designates 54.240.31.181 as permitted sender) client-ip=54.240.31.181;"
-            ],
-            "reply-to": [
-                "Duolingo <no-reply@duolingo.com>"
-            ],
-            "return-path": [
-                "<0100017869c18f28-8751d738-0b0f-49b2-9755-f88bb6b6e1cf-000000@bounces.duolingo.com>"
-            ],
             "subject": [
-                "\ud83d\udecb Can you make it to a 3 day streak?"
+                "Hello Friend"
             ],
             "to": [
-                "poomon2542@gmail.com"
-            ],
-            "x-google-smtp-source": [
-                "ABdhPJxZJ4NIcKCGaCCHr/4V/KjVQZIkI5bF3DV1MeBD6S8qHjsSCMWGnpk59Sy3pcMCNr8g6OE6"
-            ],
-            "x-received": [
-                "by 2002:ab0:3149:: with SMTP id e9mr4732608uam.48.1616681996534;        Thu, 25 Mar 2021 07:19:56 -0700 (PDT)"
-            ],
-            "x-ses-outgoing": [
-                "2021.03.25-54.240.31.181"
+                "ajmani.jeet@gmail.com"
             ]
         },
-        "received": [
-            {
-                "by": [
-                    "2002:adf:9d8a:0:0:0:0:0"
-                ],
-                "date": "2021-03-25T07:19:56-07:00",
-                "src": "by 2002:adf:9d8a:0:0:0:0:0 with smtp id p10csp638945wre; thu, 25 mar 2021 07:19:56 -0700 (pdt)",
-                "with": "smtp id p10csp638945wre"
-            },
-            {
-                "by": [
-                    "mx.google.com"
-                ],
-                "date": "2021-03-25T07:19:56-07:00",
-                "for": [
-                    "poomon2542@gmail.com"
-                ],
-                "from": [
-                    "54.240.31.181",
-                    "a31-181.smtp-out.amazonses.com"
-                ],
-                "src": "from a31-181.smtp-out.amazonses.com (a31-181.smtp-out.amazonses.com. [54.240.31.181]) by mx.google.com with esmtps id j16si1060621vsn.346.2021.03.25.07.19.56 for <poomon2542@gmail.com> (version=tls1_2 cipher=ecdhe-ecdsa-aes128-sha bits=128/128); thu, 25 mar 2021 07:19:56 -0700 (pdt)",
-                "with": "esmtps id j16si1060621vsn.346.2021.03.25.07.19.56"
-            }
-        ],
-        "received_domain": [
-            "a31-181.smtp-out.amazonses.com",
-            "mx.google.com"
-        ],
-        "received_foremail": [
-            "poomon2542@gmail.com"
-        ],
-        "received_ip": [
-            "54.240.31.181",
-            "2002:adf:9d8a::"
-        ],
-        "subject": "\ud83d\udecb Can you make it to a 3 day streak?",
+        "received": [],
+        "subject": "Hello Friend",
         "to": [
-            "poomon2542@gmail.com"
+            "ajmani.jeet@gmail.com"
         ]
     }
 }
