@@ -340,13 +340,13 @@ def calculate_score(filename):
     # print("Total Score: " + str(total))
     # print("Percentage: " + str(total) + "%")
 
-    #values = [round(sender_score, 2), round(cc_score, 2), round(subject_score, 2), round(date_score, 2), round(body_score, 2), round(attachments_score, 2)]
-    values = [int(sender_score), int(cc_score), int(subject_score), int(date_score), int(body_score), int(attachments_score)]
+    values = [round(sender_score, 2), round(cc_score, 2), round(subject_score, 2), round(date_score, 2), round(body_score, 2), round(attachments_score, 2)]
+    #values = [int(sender_score), int(cc_score), int(subject_score), int(date_score), int(body_score), int(attachments_score)]
     # print(values)
 
     for i in values:
         total += i
 
-    values.append(int(total))
+    values.append(round(total,2))
 
     return values
