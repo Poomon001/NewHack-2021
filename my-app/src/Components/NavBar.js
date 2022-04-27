@@ -2,15 +2,15 @@ const NavBar = () => {
   return (
     <div className="nav-links">
       <nav>
-        <a className="logo">
+        <a className="logo" href="home">
           <img src="new-logo.png" alt="" />
         </a>
         <ul>
           <li className="Pages">
-            <a href="">HOME</a>
+            <a href="home">HOME</a>
           </li>
           <li className="Pages">
-            <a href="">ABOUT</a>
+            <a href="about">ABOUT</a>
           </li>
         </ul>
       </nav>

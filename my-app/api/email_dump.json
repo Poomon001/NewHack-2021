@@ -1,205 +1,63 @@
 {
-    "attachment": [
-        {
-            "content_header": {
-                "content-disposition": [
-                    "attachment; filename=\"samplefile.txt\""
-                ],
-                "content-id": [
-                    "<f_kvo1rqwt0>"
-                ],
-                "content-transfer-encoding": [
-                    "base64"
-                ],
-                "content-type": [
-                    "text/plain; charset=\"US-ASCII\"; name=\"samplefile.txt\""
-                ],
-                "x-attachment-id": [
-                    "f_kvo1rqwt0"
-                ]
-            },
-            "extension": "txt",
-            "filename": "samplefile.txt",
-            "hash": {
-                "md5": "445a8a9adee38a00640d100940ea45fc",
-                "sha1": "84c2504eabb5681b4d5f97d8be588364ef1cb3f1",
-                "sha256": "beabe87e3e73f7804270a78d1bffe1615f77314c9992251121c17cb5eeb0bdfb",
-                "sha512": "b1eb4d4c01937f7e4d2410eab4f00b8cb9b3151e161445afbdf72c37ba25ee3cabee29157106c515c204d2d2d59e425295f97b503f5bcd6353b8de753b62de58"
-            },
-            "size": 36
-        },
-        {
-            "content_header": {
-                "content-disposition": [
-                    "attachment; filename=\"Screan Shot 2021-01-14 at 10.25.22 AM.exe\""
-                ],
-                "content-id": [
-                    "<f_kvo1ryvs1>"
-                ],
-                "content-transfer-encoding": [
-                    "base64"
-                ],
-                "content-type": [
-                    "image/png; name=\"Screan Shot 2021-01-14 at 10.25.22 AM.exe\""
-                ],
-                "x-attachment-id": [
-                    "f_kvo1ryvs1"
-                ]
-            },
-            "extension": "exe",
-            "filename": "Screan Shot 2021-01-14 at 10.25.22 AM.exe",
-            "hash": {
-                "md5": "dc7375de06717beb30650b5ecc38890c",
-                "sha1": "8eae3db40b764d9325fd447a6cb49bdbcb9bcef5",
-                "sha256": "e3f492975e5f4f510b89f764b6012591b6731e345e17f1028fc311dacbfc3f51",
-                "sha512": "b28a3653ae83e2e2172f8fa2114aabfac3b8e9a68a3bce3238358c4da6cc7d113c614bbb570878a78c08f012cb6d28cb843c436a8fe383cc5dab82cbc267d42c"
-            },
-            "size": 30957
-        }
-    ],
     "body": [
         {
-            "boundary": "00000000000052415305d021a081",
+            "boundary": "000000000000c9a8d005d031f1d3",
             "content_header": {
                 "content-type": [
                     "text/plain; charset=\"UTF-8\""
                 ]
             },
             "content_type": "text/plain",
-            "hash": "10a00f9be7031da7ddf38e6b831430a126b494eec0f49cdf40c38115e4c9b6bb"
+            "hash": "e243f54ab94899542f8a365f2dafc362e68c845d6bb5131b2e39df18f02407b8"
         },
         {
-            "boundary": "00000000000052415305d021a081",
+            "boundary": "000000000000c9a8d005d031f1d3",
             "content_header": {
-                "content-transfer-encoding": [
-                    "quoted-printable"
-                ],
                 "content-type": [
                     "text/html; charset=\"UTF-8\""
                 ]
             },
             "content_type": "text/html",
-            "domain_hash": [
-                "d4c9d9027326271a89ce51fcaf328ed673f17be33469ff979e8ab8dd501e664f",
-                "8b01e3342666a1145b89b42f8119ab95dc5d361a5102b58e352891e8a6c83871"
-            ],
-            "hash": "7234db03d2fcef3d90a2fd1ab7f36b980590b3cdd39fe289befa2ea0479c3a1a",
-            "uri_hash": [
-                "cf4b367e49bf0b22041c6f065f4aa19f3cfe39c8d5abc0617343d1a66c6a26f5",
-                "7e84fbdaf545ebdc5c2dd1076a1d887ff5dacef5ded70764f73034cf7bda596c"
-            ]
+            "hash": "37de2720e1daadeb9ab448c5e366ba4a2cfa7960cc40fbb8f96742aa2213b89c"
         }
     ],
     "header": {
         "cc": [
-            "thenumberonenonscammergetyoumoneyforfree@zzz.com",
-            "meandallmyfriendslovelongemailaddressestonight@emailwhatwmrongemailemailemail.co"
+            "djtherock@hotmail.com",
+            "kevinhart4real@gmail.com"
         ],
-        "date": "2021-11-05T00:55:14-07:00",
-        "delivered_to": [
-            "johnnydepp@outlook.com"
-        ],
-        "from": "moneybags@gmaii.com",
+        "date": "2021-11-07T04:23:31-08:00",
+        "from": "icecube@yahoo.com",
         "header": {
-            "arc-authentication-results": [
-                "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20210112 header.b=iLJRnvvs;       spf=pass (google.com: domain of fjwefuwehfiwuefhwieuhf@sent.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=fjwefuwehfiwuefhwieuhf@sent.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
-            ],
-            "arc-message-signature": [
-                "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=cc:to:subject:message-id:date:from:mime-version:dkim-signature;        bh=IYsgAn6yrLLK+0G+dHAkBTR4WWUhUNgTklFqIFpEx4I=;        b=nPUDVzgBXHwU2mvWoOMVogi/GamdsGHSo0Ty3hAW8In5Ik4CAMfWVna2ECB2AgqbWl         +byrUiVkggVr1EWr9/9i3ivwV9BFeskg46IVoWyLtVJQ7vogsoDUutJ9eqTgDrn95vBz         Uke8h/UQ/wf6aiMmXcL0J7mIYHimdn/2iELIrE2XulL0yS0kSU6qpWx4c89vNkUk3SA+         qtK6k6mm+Ylm18wNhs4HjHU4JULecatKIVu+FeQT+VDqgxOxIH2DL376rf8nFj9PjOFA         FJRdOe6SPm9818WOTTu8o58h6M06dqP5g0nU0eAlneA2US4wRYPM/op8qVmsGaZRJp0i         ujqw=="
-            ],
-            "arc-seal": [
-                "i=1; a=rsa-sha256; t=1636217726; cv=none;        d=google.com; s=arc-20160816;        b=m+A51tRqLNHr0jzTpQh/reKecNKGglEfyUxXDvfSlTU2jmuITplifF93ZXjIoKwAUS         rF14naSwHviENFgHaEnxCPQFSCpAwvYrzgQYouP36ODWO+sj8nq6ULSW36XxZff67+yz         Oxm0anE1gHSILo54ChGILNTFzKj+Q1pLLqyJNRCLzwsv4V/nNDitacEQkf6+7F4ks5C2         dZNNY91z207O1NGNQ7jhFxd3F+Q6eZmnGWrHp5OhwNbzh9VxUStQQT0pRfhqaz5UacyY         crS8eH8UYOGsUCAQCOKMpjZSEm8qBrVEPwB1eplXHLRtkGvd6tikBI4Tn0VGbL/33yGo         9/Nw=="
-            ],
-            "authentication-results": [
-                "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20210112 header.b=iLJRnvvs;       spf=pass (google.com: domain of fjwefuwehfiwuefhwieuhf@sent.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=fjwefuwehfiwuefhwieuhf@sent.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
-            ],
             "cc": [
-                "Thenumberonenonscammergetyoumoneyforfree@zzz.com, meandallmyfriendslovelongemailaddressestonight@emailwhatwmrongemailemailemail.co"
+                "Dwayne Johnson <djtherock@hotmail.com>, Kevin Hart <kevinhart4real@gmail.com>"
             ],
             "content-type": [
-                "multipart/mixed; boundary=\"00000000000052415705d021a083\""
+                "multipart/alternative; boundary=\"000000000000c9a8d005d031f1d3\""
             ],
             "date": [
-                "Fri, 05 Nov 2021 00:55:14 -0700"
-            ],
-            "delivered-to": [
-                "johnnydepp@outlook.com"
-            ],
-            "dkim-signature": [
-                "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20210112;        h=mime-version:from:date:message-id:subject:to:cc;        bh=IYsgAn6yrLLK+0G+dHAkBTR4WWUhUNgTklFqIFpEx4I=;        b=iLJRnvvsSL1QoNWfrwMnaVh5ba+hHgqKwUdkMI5xKrSyOHixouXH2SKpTAbT4hFZ3B         ONB+N2YoZHqSEjiOjnFnAxTBLTIG5oNZ5zlRar50q7+XwaFdKA78Z/mnlLSzQQYgVHtm         Kg9Qr8HdcmDTsDuzI03DisiOh0TnmSvzYwX+cRdAXTPbIMcSt4Grl2Nxhianf6GLcr/T         sjX+Sa6rAJEGpoivcYOK9yxJsyBYg/M9aE3b7CzsbS4N29Jhr/aB/EZE4d5+6DtTtQN5         f+d7K6KD6LUSGSz2xbQ5OsQWysMKxWJC/t8BY1gQwwA446YGulA6cYZpbVxTGfRY9lkY         2OqA=="
+                "Sun, 07 Nov 2021 04:23:31 -0800"
             ],
             "from": [
-                "Anonymous <Moneybags@gmaiI.com>"
+                "Ice Cube <Icecube@yahoo.com>"
             ],
             "message-id": [
-                "<CAEyrMpmK_FrE=p_K_0ytjNdAqxdiyY5XzZecFCHXWJ8tHRsKKQ@mail.gmail.com>"
+                "<CAEyrMpndbkAh2yWj1jRpaxJj8yFe=VpgmXjEzSgJgQFWZ2Prkw@mail.gmail.com>"
             ],
             "mime-version": [
                 "1.0"
             ],
-            "received": [
-                "by 2002:a6b:6b01:0:0:0:0:0 with SMTP id g1csp3203230ioc;        Fri, 05 Nov 2021 00:55:26 -0700 (PDT)",
-                "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id ji9sor272608ejc.52.2021.11.06.09.55.26        (Google Transport Security);        Fri, 05 Nov 2021 00:55:26 -0700 (PDT)"
-            ],
-            "received-spf": [
-                "pass (google.com: domain of fjwefuwehfiwuefhwieuhf@sent.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
-            ],
-            "return-path": [
-                "<fjwefuwehfiwuefhwieuhf@sent.com>"
-            ],
             "subject": [
-                "Audio Authenticated Available! Avoid Bank Benefits! "
+                "Hello Friend"
             ],
             "to": [
-                "johnnydepp@outlook.com"
-            ],
-            "x-gm-message-state": [
-                "AOAM533T2b/ZUqm8hEIRC4AhIhVfPaRZ/QqV3PHv48oFWlIl5QYZXQR9\tOmxAtcZhK+pnhVwLTAMIbUM9CPstYbbJxR+tYctxZRjXGRt/yQ=="
-            ],
-            "x-google-dkim-signature": [
-                "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20210112;        h=x-gm-message-state:mime-version:from:date:message-id:subject:to:cc;        bh=IYsgAn6yrLLK+0G+dHAkBTR4WWUhUNgTklFqIFpEx4I=;        b=uTpBG2iWwHdfL5ODte+SMHEwJ5nT8cARXeTLCYv75rs00RWhMn/Ll+lQpQCw8KmWCh         mZacBHFR0RH9CqVD5GUmxIC/geunkj59Oo1tEm6DEz3T7Fk3X2xVbdeXQTNEEK6kQMEz         lFw6TzwcY2mZMwZdXoTSVwwPW1cIRpBDvoRjaXM79P7YQ0PNxz3X9rpFwP1a5qF5Z7Nu         Rm3HPaNpFwUK5GwPlHSNkvE+iotCzqU43Kbv9CfYwBOhaRpHnG+Dx6jMWOGuDWCgs3e2         8dCrB5Rq3EmcAqapuaK6HU7ckxcReWeE6Yizj1QZlZzYtnlhATz75nZyE9hfyO4eaG4A         7zBw=="
-            ],
-            "x-google-smtp-source": [
-                "ABdhPJyWb6Qmi4rggdRYXm95vsvZw4KGC4KPUcg9rhI2iPPI92T0Ju9nM6CCeHcWPtYaweHR9k6LBAEHM6reOY86lME="
-            ],
-            "x-received": [
-                "by 2002:a05:6402:12c9:: with SMTP id k9mr72581348edx.364.1636217726328;        Fri, 05 Nov 2021 0:55:26 -0700 (PDT)",
-                "by 2002:a17:907:96aa:: with SMTP id hd42mr23461842ejc.385.1636217725784; Fri, 05 Nov 2021 00:55:25 -0700 (PDT)"
+                "ajmani.jeet@gmail.com"
             ]
         },
-        "received": [
-            {
-                "by": [
-                    "2002:a6b:6b01:0:0:0:0:0"
-                ],
-                "date": "2021-11-05T00:55:26-07:00",
-                "src": "by 2002:a6b:6b01:0:0:0:0:0 with smtp id g1csp3203230ioc; fri, 05 nov 2021 00:55:26 -0700 (pdt)",
-                "with": "smtp id g1csp3203230ioc"
-            },
-            {
-                "by": [
-                    "mx.google.com"
-                ],
-                "date": "2021-11-05T00:55:26-07:00",
-                "from": [
-                    "mail-sor-f41.google.com",
-                    "209.85.220.41"
-                ],
-                "src": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41]) by mx.google.com with smtps id ji9sor272608ejc.52.2021.11.06.09.55.26 (google transport security); fri, 05 nov 2021 00:55:26 -0700 (pdt)",
-                "with": "smtps id ji9sor272608ejc.52.2021.11.06.09.55.26 (google transport security)"
-            }
-        ],
-        "received_domain": [
-            "mx.google.com",
-            "mail-sor-f41.google.com"
-        ],
-        "received_ip": [
-            "2002:a6b:6b01::",
-            "209.85.220.41"
-        ],
-        "subject": "Audio Authenticated Available! Avoid Bank Benefits! ",
+        "received": [],
+        "subject": "Hello Friend",
         "to": [
-            "johnnydepp@outlook.com"
+            "ajmani.jeet@gmail.com"
         ]
     }
 }
