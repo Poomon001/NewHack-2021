@@ -21,10 +21,6 @@
             [
                 "Content-Type",
                 "text/html; charset=\"UTF-8\""
-            ],
-            [
-                "Content-Transfer-Encoding",
-                "quoted-printable"
             ]
         ],
         "0000000000004e0a9205d1807950"

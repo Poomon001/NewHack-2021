@@ -29,9 +29,6 @@
         {
             "boundary": "0000000000004e0a9205d1807950",
             "content_header": {
-                "content-transfer-encoding": [
-                    "quoted-printable"
-                ],
                 "content-type": [
                     "text/html; charset=\"UTF-8\""
                 ]
@@ -98,6 +95,17 @@
             "mime-version": [
                 "1.0"
             ],
+            "subject": [
+                "Hello Friend"
+            ],
+            "to": [
+                "ajmani.jeet@gmail.com"
+            ]
+        },
+        "received": [],
+        "subject": "Hello Friend",
+        "to": [
+            "ajmani.jeet@gmail.com"
             "received": [
                 "by 2002:a5d:50ca:0:0:0:0:0 with SMTP id f10csp1637762wrt;        Tue, 23 Nov 2021 19:30:05 -0800 (PST)",
                 "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id k15sor2898548lfv.115.2021.11.23.19.30.05        for <poomon2542@gmail.com>        (Google Transport Security);        Tue, 23 Nov 2021 19:30:05 -0800 (PST)"

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Bar, Doughnut, Line, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
+import { Doughnut, Line, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
 
 const Factors = (props) => {
   const { sender, subject, cc, date, bodyContent, attachments, total } =
@@ -15,7 +15,7 @@ const Factors = (props) => {
     "Attachments",
   ];
   let values =
-    total == 0
+    total === 0
       ? [sender, subject, cc, date, bodyContent, attachments, 100 - total]
       : [sender, subject, cc, date, bodyContent, attachments];
 
@@ -61,7 +61,7 @@ const Factors = (props) => {
           label: (data) => {
             let values = data.formattedValue;
             let label = data.label;
-            return label != "" ? label + ": " + values : "No Risk Detected";
+            return label !== "" ? label + ": " + values : "No Risk Detected";
           },
         },
         enabled: true,
@@ -80,7 +80,7 @@ const Factors = (props) => {
     if (type === 1) {
       return (
         <div>
-          <Doughnut data={graph} options={total == 0 && option} />
+          <Doughnut data={graph} options={total === 0 && option} />
         </div>
       );
     } else if (type === 2) {
@@ -92,7 +92,7 @@ const Factors = (props) => {
     } else if (type === 3) {
       return (
         <div>
-          <Pie data={graph} options={total == 0 && option} />
+          <Pie data={graph} options={total === 0 && option} />
         </div>
       );
     }
