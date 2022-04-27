@@ -1,63 +1,159 @@
 {
-    "body": [
-        {
-            "boundary": "000000000000c9a8d005d031f1d3",
-            "content_header": {
-                "content-type": [
-                    "text/plain; charset=\"UTF-8\""
-                ]
-            },
-            "content_type": "text/plain",
-            "hash": "e243f54ab94899542f8a365f2dafc362e68c845d6bb5131b2e39df18f02407b8"
-        },
-        {
-            "boundary": "000000000000c9a8d005d031f1d3",
-            "content_header": {
-                "content-type": [
-                    "text/html; charset=\"UTF-8\""
-                ]
-            },
-            "content_type": "text/html",
-            "hash": "37de2720e1daadeb9ab448c5e366ba4a2cfa7960cc40fbb8f96742aa2213b89c"
-        }
-    ],
-    "header": {
-        "cc": [
-            "djtherock@hotmail.com",
-            "kevinhart4real@gmail.com"
+  "attachment": [
+    {
+      "content_header": {
+        "content-disposition": [
+          "inline; filename=\"blocked.gif\"; size=\"118\""
         ],
-        "date": "2021-11-07T04:23:31-08:00",
-        "from": "icecube@yahoo.com",
-        "header": {
-            "cc": [
-                "Dwayne Johnson <djtherock@hotmail.com>, Kevin Hart <kevinhart4real@gmail.com>"
-            ],
-            "content-type": [
-                "multipart/alternative; boundary=\"000000000000c9a8d005d031f1d3\""
-            ],
-            "date": [
-                "Sun, 07 Nov 2021 04:23:31 -0800"
-            ],
-            "from": [
-                "Ice Cube <Icecube@yahoo.com>"
-            ],
-            "message-id": [
-                "<CAEyrMpndbkAh2yWj1jRpaxJj8yFe=VpgmXjEzSgJgQFWZ2Prkw@mail.gmail.com>"
-            ],
-            "mime-version": [
-                "1.0"
-            ],
-            "subject": [
-                "Hello Friend"
-            ],
-            "to": [
-                "ajmani.jeet@gmail.com"
-            ]
-        },
-        "received": [],
-        "subject": "Hello Friend",
-        "to": [
-            "ajmani.jeet@gmail.com"
-        ]
+        "content-id": ["<16510322946268c0e6a1435554481492@uvic.ca>"],
+        "content-transfer-encoding": ["base64"],
+        "content-type": ["image/gif; name=\"blocked.gif\""]
+      },
+      "extension": "gif",
+      "filename": "blocked.gif",
+      "hash": {
+        "md5": "5d7fafc215bd05da9bfe16877809dcf7",
+        "sha1": "23a8d201efa0a2f0176ba5b9aed6ae01a1173452",
+        "sha256": "2af4c22b4490d9a598a3fee3b49d3f898feefb4cb6918f58b68a3d815439e9a8",
+        "sha512": "428f906e07cf108654c94768c7b73404b2a35386913ab947c028e147770d07eb3cca2baffe3df39a3d2e0c1ac2d608379913ecb5dd7d0eefa721c212da77d867"
+      },
+      "size": 118
     }
+  ],
+  "body": [
+    {
+      "boundary": "=_258b73b75bc93608f7409c2ddb833bb3",
+      "content_header": {
+        "content-transfer-encoding": ["8bit"],
+        "content-type": ["text/plain; charset=\"UTF-8\"; format=\"flowed\""]
+      },
+      "content_type": "text/plain",
+      "domain_hash": [
+        "11a62321bc1afbfb75ff28dfcb4343fb1ab1da08d2cea69149a9806023fb0a60",
+        "581327c8fb575c3c5bdb7de1f2ed1f58e1a95a30f07d9039312109e34a0fe2a3"
+      ],
+      "email_hash": [
+        "b6774b1709cf3758df2d20971a98f379d189e5693da478b8319627116f873900",
+        "5a3bda5f9625adfc845ad12e2267ee284e9534cd5e60ba2701673372eb836e30"
+      ],
+      "hash": "d1cb62eb5a1b99bf70ba30ee8331777183e9b2c4102929a0f3b91dafd49e0534",
+      "uri_hash": [
+        "75953da89f3dae70f17027ab7995de556a7f13e7cf2b5f3c1a572eb2517ee38b"
+      ]
+    },
+    {
+      "boundary": "=_6c90223042889e3ccb4a9bc113fc190d",
+      "content_header": {
+        "content-type": ["text/html; charset=\"UTF-8\""]
+      },
+      "content_type": "text/html",
+      "domain_hash": [
+        "11a62321bc1afbfb75ff28dfcb4343fb1ab1da08d2cea69149a9806023fb0a60",
+        "581327c8fb575c3c5bdb7de1f2ed1f58e1a95a30f07d9039312109e34a0fe2a3"
+      ],
+      "email_hash": [
+        "b6774b1709cf3758df2d20971a98f379d189e5693da478b8319627116f873900",
+        "5a3bda5f9625adfc845ad12e2267ee284e9534cd5e60ba2701673372eb836e30"
+      ],
+      "hash": "fd80ac2e3220c2604148f7aa1f94315ff8d374cfe4a6ce275f05bd2ba0d7fb10",
+      "uri_hash": [
+        "75953da89f3dae70f17027ab7995de556a7f13e7cf2b5f3c1a572eb2517ee38b"
+      ]
+    }
+  ],
+  "header": {
+    "date": "2022-04-26T21:04:54-07:00",
+    "delivered_to": ["poomon2542@gmail.com"],
+    "from": "pchuthamsatid@uvic.ca",
+    "header": {
+      "arc-authentication-results": [
+        "i=1; mx.google.com;       spf=pass (google.com: best guess record for domain of pchuthamsatid@uvic.ca designates 142.104.42.109 as permitted sender) smtp.mailfrom=pchuthamsatid@uvic.ca"
+      ],
+      "arc-message-signature": [
+        "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=message-id:user-agent:references:in-reply-to:subject:to:from:date         :mime-version;        bh=Wb91vEqRJyUvZsRc/1lqPdyqmGJwXzGPhEJNzfl/Res=;        b=QgbZRnaFpFXrZeVIRpE6wqJx+nE70opW4s+3Kksm8mF78zZef091CuHKgp3HxjSSHl         TGGoY+Nu52IeXuMmmjn/kAld0L7VzpgXPRShTSR51Gt3piX6Hg15YjrV2w75K4IX5GEu         FCNpapRuxU+CAbXHAiDkfyyGvmfLqn+NLUZzVsaLvP6jkLQYe3ZaIo0C/yjKAgMVYJvQ         6BUQPc0FDxRS9v7NKJU8jnRQ+l+dmQziMLfCdhebPZnYVeeDROrKDuNbd9PVS6nXDa2r         3Q3kechEooSoLYgJAto1MugKCQCRgJil6cRoGd86yAA9nsYbOXcazox1CpKiSxhDgXpy         KS6g=="
+      ],
+      "arc-seal": [
+        "i=1; a=rsa-sha256; t=1651032296; cv=none;        d=google.com; s=arc-20160816;        b=dS/YVKozAWI2R0LxzfXTuB7YlUSapufSbquBFhKZ4DO9xuTclrSI7Ufc6vYm19wOUI         vzCXQbEl73QmlEZdLsTPRjWHGiPa8/1x3nujpMyUgNUwNqM50/KYbBVwGoomU/kn+tQu         Crs1BvhnSBAhbQh3Jcaf5p1U0eTXFoVv3KS70mG5n5Ht5TbNRgmpvHTgQkar67kqOlAS         i7R1+a8UZcr9FIq9oKI40m1n3GtdazxPobF9PWRgJTyTsSVsfvC5o0GA0ivWX2nHTMDu         EcY/mN6DkB/kmpjUMiHYEzUWdebnKgk6XSzUU6kxeQvRJ+HYYcb++f20whVJSKo8aeqb         nYOA=="
+      ],
+      "authentication-results": [
+        "mx.google.com;       spf=pass (google.com: best guess record for domain of pchuthamsatid@uvic.ca designates 142.104.42.109 as permitted sender) smtp.mailfrom=pchuthamsatid@uvic.ca"
+      ],
+      "content-type": [
+        "multipart/alternative; boundary=\"=_258b73b75bc93608f7409c2ddb833bb3\""
+      ],
+      "date": ["Tue, 26 Apr 2022 21:04:54 -0700"],
+      "delivered-to": ["poomon2542@gmail.com"],
+      "from": ["pchuthamsatid <pchuthamsatid@uvic.ca>"],
+      "in-reply-to": [
+        "<1648603101688334504.474.7188153854062969228@gophish.phishingawareness.ca>"
+      ],
+      "message-id": ["<1db9fed549f7f9539eb8ea27d57dbe69@uvic.ca>"],
+      "mime-version": ["1.0"],
+      "received": [
+        "by 2002:a50:7a17:0:0:0:0:0 with SMTP id 23csp1094375ecu;        Tue, 26 Apr 2022 21:04:56 -0700 (PDT)",
+        "from frogmouth.comp.uvic.ca (frogmouth.comp.uvic.ca. [142.104.42.109])        by mx.google.com with ESMTPS id z10-20020a63e54a000000b003816043f10dsi296737pgj.770.2022.04.26.21.04.55        for <poomon2542@gmail.com>        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Tue, 26 Apr 2022 21:04:55 -0700 (PDT)",
+        "from webmail.uvic.ca (weka.comp.uvic.ca [142.104.118.178])\tby frogmouth.comp.uvic.ca (8.14.4/8.14.4) with ESMTP id 23R44sK8030260\tfor <poomon2542@gmail.com>; Tue, 26 Apr 2022 21:04:54 -0700"
+      ],
+      "received-spf": [
+        "pass (google.com: best guess record for domain of pchuthamsatid@uvic.ca designates 142.104.42.109 as permitted sender) client-ip=142.104.42.109;"
+      ],
+      "references": [
+        "<1648603101688334504.474.7188153854062969228@gophish.phishingawareness.ca>"
+      ],
+      "return-path": ["<pchuthamsatid@uvic.ca>"],
+      "subject": [
+        "Fwd: \ud83d\udce2 Final Important Notice !! ( Email Sign - In Alert ) .."
+      ],
+      "to": ["poomon2542@gmail.com"],
+      "user-agent": ["Roundcube Webmail/1.4.12"],
+      "x-google-smtp-source": [
+        "ABdhPJwniRSzS4gYhS7njGO0WxXjZrYz3C4pf2QlIT146Hs8Ivdi+v5NP494+HmfIkASm7bxlspY"
+      ],
+      "x-received": [
+        "by 2002:a17:90a:e641:b0:1da:43b8:95b7 with SMTP id ep1-20020a17090ae64100b001da43b895b7mr69228pjb.180.1651032296006;        Tue, 26 Apr 2022 21:04:56 -0700 (PDT)"
+      ],
+      "x-scanned-by": ["MIMEDefang 2.78"],
+      "x-sender": ["pchuthamsatid@uvic.ca"],
+      "x-uvic-outbound-scan": ["frogmouth.comp.uvic.ca Not_scanned_Host"],
+      "x-uvic-scan": ["frogmouth.comp.uvic.ca filter_version 3.7.9"],
+      "x-uvic-spam-scan": ["frogmouth.comp.uvic.ca Not_scanned_LOCAL"],
+      "x-uvic-virus-scanned": [
+        "OK - Passed virus scan by ClamAV (clamd) on frogmouth",
+        "OK - Passed virus scan by Sophos (sophie) on frogmouth"
+      ]
+    },
+    "received": [
+      {
+        "by": ["2002:a50:7a17:0:0:0:0:0"],
+        "date": "2022-04-26T21:04:56-07:00",
+        "src": "by 2002:a50:7a17:0:0:0:0:0 with smtp id 23csp1094375ecu; tue, 26 apr 2022 21:04:56 -0700 (pdt)",
+        "with": "smtp id 23csp1094375ecu"
+      },
+      {
+        "by": ["mx.google.com"],
+        "date": "2022-04-26T21:04:55-07:00",
+        "for": ["poomon2542@gmail.com"],
+        "from": ["frogmouth.comp.uvic.ca", "142.104.42.109"],
+        "src": "from frogmouth.comp.uvic.ca (frogmouth.comp.uvic.ca. [142.104.42.109]) by mx.google.com with esmtps id z10-20020a63e54a000000b003816043f10dsi296737pgj.770.2022.04.26.21.04.55 for <poomon2542@gmail.com> (version=tls1_2 cipher=ecdhe-ecdsa-aes128-gcm-sha256 bits=128/128); tue, 26 apr 2022 21:04:55 -0700 (pdt)",
+        "with": "esmtps id z10-20020a63e54a000000b003816043f10dsi296737pgj.770.2022.04.26.21.04.55"
+      },
+      {
+        "by": ["frogmouth.comp.uvic.ca"],
+        "date": "2022-04-26T21:04:54-07:00",
+        "for": ["poomon2542@gmail.com"],
+        "from": ["142.104.118.178", "webmail.uvic.ca", "weka.comp.uvic.ca"],
+        "src": "from webmail.uvic.ca (weka.comp.uvic.ca [142.104.118.178]) by frogmouth.comp.uvic.ca (8.14.4/8.14.4) with esmtp id 23r44sk8030260 for <poomon2542@gmail.com>; tue, 26 apr 2022 21:04:54 -0700",
+        "with": "esmtp id 23r44sk8030260"
+      }
+    ],
+    "received_domain": [
+      "frogmouth.comp.uvic.ca",
+      "webmail.uvic.ca",
+      "mx.google.com"
+    ],
+    "received_foremail": ["poomon2542@gmail.com"],
+    "received_ip": ["142.104.118.178", "142.104.42.109", "2002:a50:7a17::"],
+    "subject": "Fwd: \ud83d\udce2 Final Important Notice !! ( Email Sign - In Alert ) ..",
+    "to": ["poomon2542@gmail.com"]
+  }
 }

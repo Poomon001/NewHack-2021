@@ -1,24 +1,17 @@
 [
+  [
+    "8bit",
+    "-------- Original Message --------\r\n\r\n  \t\tSUBJECT:\r\n  \t\t\ud83d\udce2 Final Important Notice !! ( Email Sign - In Alert ) ..\r\n\r\n  \t\tDATE:\r\n  \t\t2022-03-29 18:18\r\n\r\n  \t\tFROM:\r\n  \t\t\"University of Victoria\" <knswest@publishingdot.ca>\r\n\r\n  \t\tTO:\r\n  \t\t\"Poomrapee Chuthamsatid\" <pchuthamsatid@uvic.ca>\r\n\r\nAttention:\r\n\r\nThe Classic version of your Roundcube Mail will be replaced by our new \r\nversion (University of Victoria). So it's time to upgrade, before you \r\nlose your email access, users must update their email immediately.\r\n\r\nCLICK HERE [1] to update and gain access to our new web interface. \r\nProtecting your information is important to us and we work continuously \r\nto strengthen our defenses against the threats targeting our Financial \r\nInstitution.\r\n\r\nThis is an automated email sent from our email servers (University of \r\nVictoria) to let you know about important changes.\r\n\r\n(c)2022 University of Victoria: Security dept. maintenance view.\r\n\r\n\r\n\r\nLinks:\r\n------\r\n[1] https://publishingdot.ca/extract/notify/test/roundcube?rid=6fp2yuw",
     [
-        "",
-        "Hello?\r\n",
-        [
-            [
-                "Content-Type",
-                "text/plain; charset=\"UTF-8\""
-            ]
-        ],
-        "000000000000c9a8d005d031f1d3"
+      ["Content-Transfer-Encoding", "8bit"],
+      ["Content-Type", "text/plain; charset=UTF-8;\r\n format=flowed"]
     ],
-    [
-        "",
-        "<div dir=\"ltr\">Hello?</div>\r\n",
-        [
-            [
-                "Content-Type",
-                "text/html; charset=\"UTF-8\""
-            ]
-        ],
-        "000000000000c9a8d005d031f1d3"
-    ]
+    "=_258b73b75bc93608f7409c2ddb833bb3"
+  ],
+  [
+    "quoted-printable",
+    "<html><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" /></head><body style='font-size: 10pt; font-family: Verdana,Geneva,sans-serif'>\r\n<p><br /></p>\r\n<p>-------- Original Message --------</p>\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\r\n<tbody>\r\n<tr>\r\n<th align=\"right\" valign=\"baseline\" nowrap=\"nowrap\">Subject:</th>\r\n<td>\ud83d\udce2 Final Important Notice !! ( Email Sign - In Alert ) ..</td>\r\n</tr>\r\n<tr>\r\n<th align=\"right\" valign=\"baseline\" nowrap=\"nowrap\">Date:</th>\r\n<td>2022-03-29 18:18</td>\r\n</tr>\r\n<tr>\r\n<th align=\"right\" valign=\"baseline\" nowrap=\"nowrap\">From:</th>\r\n<td>\"University of Victoria\" &lt;knswest@publishingdot.ca&gt;</td>\r\n</tr>\r\n<tr>\r\n<th align=\"right\" valign=\"baseline\" nowrap=\"nowrap\">To:</th>\r\n<td>\"Poomrapee Chuthamsatid\" &lt;pchuthamsatid@uvic.ca&gt;</td>\r\n</tr>\r\n</tbody>\r\n</table>\r\n<p><br /></p>\r\n<div id=\"forwardbody1\">\r\n<div style=\"font-size: 10pt; font-family: Verdana,Geneva,sans-serif;\">\r\n<p><span style=\"font-family: verdana, sans-serif;\">Attention:<br /><br />The Classic version of your<span> </span>Roundcube<span> </span>Mail will be replaced by our new version (</span><span>University of Victoria)</span><span style=\"font-family: verdana, sans-serif;\">. So it's time to upgrade, before you lose your email access, users must update their email immediately.<br /><br /><a href=\"https://publishingdot.ca/extract/notify/test/roundcube?rid=6fp2yuw\" target=\"_blank\" rel=\"noopener noreferrer\">CLICK HERE</a> to update and gain access to our new web interface. Protecting your information is important to us and we work continuously to strengthen our defenses against the threats targeting our Financial Institution.<br /><br />This is an automated email sent from our email servers (</span><span>University of Victoria</span><span style=\"font-family: verdana, sans-serif;\">) to let you know about important changes. <br /><br />&copy;2022 </span><span>University of Victoria</span><span>: Security </span><span style=\"font-family: verdana, sans-serif;\">dept. maintenance view.</span></p>\r\n<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><img style=\"display: none;\" src=\"cid:16510322946268c0e6a1435554481492@uvic.ca\" /></div>\r\n</div>\r\n\r\n</body></html>\r\n",
+    [["Content-Type", "text/html; charset=\"UTF-8\""]],
+    "=_6c90223042889e3ccb4a9bc113fc190d"
+  ]
 ]
