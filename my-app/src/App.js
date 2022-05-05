@@ -5,23 +5,22 @@ import Content from "./Components/Content";
 import Lightbox from "./Components/Lightbox";
 import { LightboxProvider } from "./Components/util/useLightbox";
 import Display from "./Components/Display";
+import { ResultProvider } from "./Components/util/useResult";
 
-export const LightboxContext = React.createContext();
 export const ResultContext = React.createContext();
 
 function App() {
-  const [result, setResult] = useState({});
   return (
     <LightboxProvider>
-      <ResultContext.Provider value={{ result, setResult }}>
+      <ResultProvider>
         <Lightbox>
-          <Display todo={result} />
+          <Display />
         </Lightbox>
         <div id="page" className="App">
           <NavBar />
           <Content />
         </div>
-      </ResultContext.Provider>
+      </ResultProvider>
     </LightboxProvider>
   );
 }

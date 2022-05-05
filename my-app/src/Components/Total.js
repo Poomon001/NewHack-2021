@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useResult } from "./util/useResult";
 import { Bar, Doughnut, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
 
-const Total = (props) => {
+const Total = () => {
+  const result = useResult().result;
   const [type, setType] = useState(1);
-  const high = props.todo.total;
+  const high = result.total;
   const low = 100 - high;
   const graph = {
     labels: ["High Risk", "Low Risk"],

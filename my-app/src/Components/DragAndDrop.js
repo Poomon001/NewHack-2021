@@ -2,11 +2,11 @@ import React, { useState, useContext, useCallback } from "react";
 // https://react-dropzone.js.org/
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
-import { ResultContext } from "../App";
 import { trackPromise } from "react-promise-tracker";
 import Loader from "./Loader";
 import { usePromiseTracker } from "react-promise-tracker";
 import { useLightbox } from "./util/useLightbox";
+import { useResult } from "./util/useResult";
 
 const DragAndDrop = () => {
   const { promiseInProgress } = usePromiseTracker({
@@ -15,7 +15,7 @@ const DragAndDrop = () => {
   });
 
   const [open, setOpen] = useState(false);
-  const { setResult } = useContext(ResultContext);
+  const result = useResult();
   const lightbox = useLightbox();
   const Button = lightbox.Button;
 
@@ -31,7 +31,7 @@ const DragAndDrop = () => {
           // send a post text to Flask api and take a response from the api
           Request(text).then((res) => {
             // set the returned result from api
-            setResult(res);
+            result.setResult(res);
             // set to open a graph
             setOpen(true);
           }),

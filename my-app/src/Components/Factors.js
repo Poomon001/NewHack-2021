@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { useResult } from "./util/useResult";
 import { Doughnut, Line, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
 
-const Factors = (props) => {
-  const { sender, subject, cc, date, bodyContent, attachments, total } =
-    props.todo;
+const Factors = () => {
   const [type, setType] = useState(1);
+  const result = useResult().result;
+  const { sender, subject, cc, date, bodyContent, attachments, total } = result;
 
   let labels = [
     "Sender",
