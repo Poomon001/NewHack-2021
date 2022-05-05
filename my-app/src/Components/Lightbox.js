@@ -1,20 +1,16 @@
-import { LightboxContext, ResultContext } from "../App";
-import React, { useContext } from "react";
-import Display from "./Display";
-import LightBoxButton from "./LightboxButton";
+import React from "react";
+import { useLightbox } from "./util/useLightbox";
 
 const Lightbox = (props) => {
-  const { openLightbox } = useContext(LightboxContext);
-  const { result } = useContext(ResultContext);
+  const lightbox = useLightbox();
+  const DisplayLightbox = lightbox.DisplayLightbox;
+  const Button = lightbox.Button;
   return (
     <>
-      {openLightbox && (
-        <div className="lightbox">
-          <LightBoxButton />
-          <Display todo={result} />
-        </div>
-      )}
-      <>{props.children}</>
+      <DisplayLightbox>
+        <Button />
+        {props.children}
+      </DisplayLightbox>
     </>
   );
 };

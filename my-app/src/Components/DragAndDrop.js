@@ -2,19 +2,22 @@ import React, { useState, useContext, useCallback } from "react";
 // https://react-dropzone.js.org/
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
-import LightBoxButton from "./LightboxButton";
-import { ResultContext } from "../App";
 import { trackPromise } from "react-promise-tracker";
 import Loader from "./Loader";
 import { usePromiseTracker } from "react-promise-tracker";
+import { useLightbox } from "./util/useLightbox";
+import { useResult } from "./util/useResult";
 
 const DragAndDrop = () => {
   const { promiseInProgress } = usePromiseTracker({
     area: "email-area",
     delay: 0,
   });
+
   const [open, setOpen] = useState(false);
-  const { setResult } = useContext(ResultContext);
+  const result = useResult();
+  const lightbox = useLightbox();
+  const Button = lightbox.Button;
 
   const onDrop = useCallback((acceptedFiles) => {
     const [file] = acceptedFiles;
@@ -28,7 +31,7 @@ const DragAndDrop = () => {
           // send a post text to Flask api and take a response from the api
           Request(text).then((res) => {
             // set the returned result from api
-            setResult(res);
+            result.setResult(res);
             // set to open a graph
             setOpen(true);
           }),
@@ -76,11 +79,7 @@ const DragAndDrop = () => {
             <img src="file.png" alt="file" style={{ radiant: "red" }} />
           </div>
         </div>
-        {promiseInProgress ? (
-          <Loader area="email-area" />
-        ) : (
-          open && <LightBoxButton />
-        )}
+        {promiseInProgress ? <Loader area="email-area" /> : open && <Button />}
       </section>
     </>
   );

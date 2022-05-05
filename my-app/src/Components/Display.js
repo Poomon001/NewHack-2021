@@ -25,10 +25,10 @@ const Display = (props) => {
     <>
       <div style={wrapper}>
         <div /* style={graphStyle1} */ id="left">
-          <Factors todo={props.todo} />
+          <Factors />
         </div>
         <div /* style={graphStyle2} */ id="right">
-          <Total todo={props.todo} />
+          <Total />
         </div>
       </div>
     </>
