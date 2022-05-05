@@ -16,10 +16,8 @@ function App() {
         <Lightbox>
           <Display />
         </Lightbox>
-        <div id="page" className="App">
-          <NavBar />
-          <Content />
-        </div>
+        <NavBar />
+        <Content />
       </ResultProvider>
     </LightboxProvider>
   );
