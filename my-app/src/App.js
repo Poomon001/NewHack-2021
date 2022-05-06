@@ -1,5 +1,5 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import NavBar from "./Components/NavBar";
 import Content from "./Components/Content";
 import Lightbox from "./Components/Lightbox";
@@ -7,19 +7,37 @@ import { LightboxProvider } from "./Components/util/useLightbox";
 import Display from "./Components/Display";
 import { ResultProvider } from "./Components/util/useResult";
 
-export const ResultContext = React.createContext();
-
 function App() {
+  const [homeRef, setHomeRef] = useState(null);
+  const [aboutRef, setAboutRef] = useState(null);
+  const [instructionRef, setInstructionRef] = useState(null);
+  const scroll = (e, ref) => {
+    e.preventDefault();
+    window.scrollTo({
+      behavior: "smooth",
+      top: ref?.current?.getBoundingClientRect().top,
+    });
+  };
   return (
-    <LightboxProvider>
-      <ResultProvider>
-        <Lightbox>
-          <Display />
-        </Lightbox>
-        <NavBar />
-        <Content />
-      </ResultProvider>
-    </LightboxProvider>
+    <div className="App" ref={homeRef}>
+      <LightboxProvider>
+        <ResultProvider>
+          <Lightbox>
+            <Display />
+          </Lightbox>
+          <NavBar
+            scroll={scroll}
+            aboutRef={aboutRef}
+            instructionRef={instructionRef}
+            homeRef={homeRef}
+          />
+          <Content
+            setAboutRef={setAboutRef}
+            setInstructionRef={setInstructionRef}
+          />
+        </ResultProvider>
+      </LightboxProvider>
+    </div>
   );
 }
 
