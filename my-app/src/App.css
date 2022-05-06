@@ -186,22 +186,26 @@ nav img {
   top: 40vh;
 }
 
+.Instruction,
 .About {
   position: relative;
   text-align: center;
   top: 80vh;
 }
 
+.Instruction h4,
 .About h4 {
   color: #f44336;
   font-size: 20px;
 }
 
+.Instruction p,
 .About p {
   color: purple;
   font-size: 20px;
 }
 
+.Instruction h4::after,
 .About h4::after {
   content: "";
   width: 0%;
@@ -212,6 +216,7 @@ nav img {
   transition: 0.5s;
 }
 
+.Instruction h4:hover::after,
 .About h4:hover::after {
   width: 100%;
 }

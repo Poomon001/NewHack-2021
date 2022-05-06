@@ -1,16 +1,30 @@
-const NavBar = () => {
+const NavBar = ({ scroll, aboutRef, instructionRef, homeRef }) => {
   return (
     <div className="nav-links">
       <nav>
-        <a className="logo" href="home">
+        <a className="logo" href="/">
           <img src="new-logo.png" alt="" />
         </a>
         <ul>
           <li className="Pages">
-            <a href="home">HOME</a>
+            <a
+              href="about"
+              onClick={(e) => {
+                scroll(e, aboutRef);
+              }}
+            >
+              ABOUT
+            </a>
           </li>
           <li className="Pages">
-            <a href="about">ABOUT</a>
+            <a
+              href="instruction"
+              onClick={(e) => {
+                scroll(e, instructionRef);
+              }}
+            >
+              INSTRUCTION
+            </a>
           </li>
         </ul>
       </nav>

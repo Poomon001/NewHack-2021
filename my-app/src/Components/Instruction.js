@@ -1,13 +1,14 @@
 import React, { useRef, useEffect } from "react";
-const About = (props) => {
-  const { setAboutRef } = props;
+
+function Instruction(props) {
+  const { setInstructionRef } = props;
   const ref = useRef(null);
   useEffect(() => {
-    setAboutRef(ref);
+    setInstructionRef(ref);
   });
   return (
-    <section className="About">
-      <h4 ref={ref}>ABOUT</h4>
+    <section className="Instruction">
+      <h4 ref={ref}>Instruction</h4>
       <p>
         Our plan is to provide peace of mind to the community by allowing them
         to protect their privacy by checking suspicious activities using our web
@@ -15,6 +16,6 @@ const About = (props) => {
       </p>
     </section>
   );
-};
+}
 
-export default About;
+export default Instruction;
