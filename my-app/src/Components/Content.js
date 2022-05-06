@@ -13,9 +13,6 @@ const Content = ({ setAboutRef, setInstructionRef }) => {
           <span className="suffix">Evaluator</span>
         </h1>
         <DragAndDrop />
-        <br />
-        <br />
-        <br />
         <About setAboutRef={setAboutRef} />
         <br />
         <br />
