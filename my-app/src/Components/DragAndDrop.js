@@ -1,4 +1,4 @@
-import React, { useState, useContext, useCallback } from "react";
+import React, { useState, memo, useCallback } from "react";
 // https://react-dropzone.js.org/
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
@@ -85,4 +85,4 @@ const DragAndDrop = () => {
   );
 };
 
-export default DragAndDrop;
+export default memo(DragAndDrop);
