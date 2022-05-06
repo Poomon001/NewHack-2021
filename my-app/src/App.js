@@ -6,12 +6,21 @@ import Lightbox from "./Components/Lightbox";
 import { LightboxProvider } from "./Components/util/useLightbox";
 import Display from "./Components/Display";
 import { ResultProvider } from "./Components/util/useResult";
+import { useLightbox } from "./Components/util/useLightbox";
 
 function App() {
-  const [homeRef, setHomeRef] = useState(null);
   const [aboutRef, setAboutRef] = useState(null);
   const [instructionRef, setInstructionRef] = useState(null);
+  const myRef = useRef(null);
+  const [homeRef, setHomeRef] = useState(null);
+
+  useEffect(() => {
+    console.log("parent", myRef?.current?.getBoundingClientRect());
+    setHomeRef(myRef?.current?.getBoundingClientRect());
+  }, []);
+
   const scroll = (e, ref) => {
+    console.log("child", ref?.current?.getBoundingClientRect().top);
     e.preventDefault();
     window.scrollTo({
       behavior: "smooth",
@@ -19,17 +28,17 @@ function App() {
     });
   };
   return (
-    <div className="App" ref={homeRef}>
+    <div className="App" ref={myRef}>
       <LightboxProvider>
         <ResultProvider>
           <Lightbox>
             <Display />
           </Lightbox>
+
           <NavBar
             scroll={scroll}
             aboutRef={aboutRef}
             instructionRef={instructionRef}
-            homeRef={homeRef}
           />
           <Content
             setAboutRef={setAboutRef}

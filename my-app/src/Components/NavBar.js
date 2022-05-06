@@ -1,7 +1,10 @@
-const NavBar = ({ scroll, aboutRef, instructionRef, homeRef }) => {
+import { useLightbox } from "./util/useLightbox";
+const NavBar = ({ scroll, aboutRef, instructionRef }) => {
+  const lightbox = useLightbox();
+  const isOpen = lightbox.isOpen;
   return (
-    <div className="nav-links">
-      <nav>
+    !isOpen && (
+      <nav className="nav-links">
         <a className="logo" href="/">
           <img src="new-logo.png" alt="" />
         </a>
@@ -28,7 +31,7 @@ const NavBar = ({ scroll, aboutRef, instructionRef, homeRef }) => {
           </li>
         </ul>
       </nav>
-    </div>
+    )
   );
 };
 
