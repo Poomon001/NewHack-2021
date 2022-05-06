@@ -1,244 +1,305 @@
 {
     "body": [
         {
-            "boundary": "d91c875a3ce17b3bbbd71ed8e7fa0ef8fcbd96c9b4bb1eda1efcdd2a7652",
+            "boundary": "----=_NextPart_000_0001_01D7D304.10E482A0",
             "content_header": {
                 "content-transfer-encoding": [
-                    "quoted-printable"
+                    "7bit"
                 ],
                 "content-type": [
-                    "text/plain; charset=\"utf-8\""
+                    "text/plain; charset=\"us-ascii\""
                 ]
             },
             "content_type": "text/plain",
             "domain_hash": [
-                "cf0baf6f8734fa17c8b5cd5a0cf3f6a62fad3c8239c978aeb14ab1bb376f53fb",
-                "fa47b32ee8d65fad06806407ea86d75054549eecafe3cc0b9694f79470da924a",
-                "3e723b591bdb95ce8f5c9b7032dc572ca97351d0da5efc73459c1fbaf438e43b",
-                "3c8b2bbd5af1180dab341c61a990008400c0f4734771d1618913d1a8fa55c929",
-                "055878d4c9c9aa326800d2936d3c2f18269b5c153402f71f1811bddede6a4551",
-                "4d7af2eb06c575b1f110d840b1548012115c01b2eb454a81c5c4c9ab579af343",
-                "6860776e5611f69c611eb6122f3f227e25d01265c0cb2536a4845797476d60a3",
-                "37bc9cd0c594711990650464a98352cc52bba4c62e88f66bfbe7051968882e9e"
+                "451ebbe1c8f95384bd1b076cb98f737936946559303dabc6072e8518f6c18367",
+                "9942d27985fe1bf2cec05d6872beaea0f8c85add742ed9751d947c42fa613550",
+                "41bd38517b7bcaa0d43541eaaa1e215b9d6d4067bb7fd90d895d2ec13f45ac9a",
+                "581327c8fb575c3c5bdb7de1f2ed1f58e1a95a30f07d9039312109e34a0fe2a3"
             ],
             "email_hash": [
-                "ac80fb4f6df1129b07e75065981a8da04f7f7533a3bb330b6b2bc86a93ee091a"
+                "8169748d4aab6fafbf1522aeddda985336e9e62a3e4d80ae868424976f432b3b"
             ],
-            "hash": "f20fe70b1f521f0605e64006c711ee32d7af61409190e778a00d9d67b7ac4bc0",
+            "hash": "e9430da5778b77ee3bc80691e38bf1e16753753eeea80b00f04f7a0a095bb49d",
             "uri_hash": [
-                "56992e5bf241866d5d691d2e20fef3f26de496b9b252a8941f0143d64484877b",
-                "faa44f7c326fcb4bd2db0062f09f25e307f3d4c79cf679a6f952af1598fe7275",
-                "2c9d046e63d8a496bad4b0ec92e3e4b43b49912c2ea3f67fc25cdd68f0e61088",
-                "fb2918771675bd4736d747a76b17972127de7567eb79bf4ab9cdc997417db50e",
-                "c96002eb39f7353cb7671d924d79090efdc5871457048c919c9789e375ccb42a",
-                "32dc2629d1bb9da962ffa831a9dd7a55c3196e59237b612b321c5a3cb5491184",
-                "cf212b79438bd35ae82ec692a68116aacb6483e3d53ae2f1ef023ebaaf3cc19d",
-                "d49634a26043aab7a3e1488ed9c0ca7195b962299c8e90ee028410f7ad535fdf"
+                "ab81b7d5f0f62aee05ebd5d068a08d04e4e1aba8bcc5328753183c6cb15a2ddb",
+                "6b1e944f199762c06060f11d9c9c93b6db22cdf9aad2770ced9d271687ca2592",
+                "42655b28d70f8ab75966a58ef982be2a3ecc085a6aaac055943f402b2e8b367c"
             ]
         },
         {
-            "boundary": "d91c875a3ce17b3bbbd71ed8e7fa0ef8fcbd96c9b4bb1eda1efcdd2a7652",
+            "boundary": "----=_NextPart_000_0001_01D7D304.10E482A0",
             "content_header": {
                 "content-transfer-encoding": [
                     "quoted-printable"
                 ],
                 "content-type": [
-                    "text/html; charset=\"utf-8\""
+                    "text/html; charset=\"us-ascii\""
                 ]
             },
             "content_type": "text/html",
             "domain_hash": [
+                "54e1cdaa60f4cca9c4ed4baecfef1a02ee3ec14144c76cac91524cdae6715ef3",
                 "1a2e36cc692d119df0a1849e97aafb00564af3f638bb5fbe4c63be1cb6b82319",
-                "2d0f3c337e640d3ae1e7aafbde887dfed9b6078e97fd5f609f27ed528032d893",
-                "55883a151c2c29096dd3872634f8f293771734ee7ebf9645231599187d16cf6d",
-                "82d4fc758099a9a836fa9fa46fa25f40231b1bb3b95d60ef365173ccad0fcb4c",
-                "1caa772a5762da81bab6631f2f0ac911726f1d719fa619f8f51831107fc7cce5",
-                "df8ab3acb3324531fb5c42308bf6cc9cac1e499d1f3e2268243a1dd4072e58d4",
-                "30ddf195d0b9ad5d64c2d73dfe8602129fbc7da47c74b01e35feb09de9940025",
-                "d9cd03800e655fdc93a8310687989e34b074cafb209d425263c9955e760b4210"
+                "d383d03c780a56107364cbad7968d51f4fd4425053e8985337c74cc5c2615fa5",
+                "56550652629b3bd5415ad359ecac054f76867cd60293ca4253971867179e318c",
+                "78217cf1a1304f7482bbc71914b8c69d3d21c7ec6411dbe697e7c6ac7ddbb9c4",
+                "bfa2bc3598aeb55ad9ffee7545faedb9af761809e970cedcaee4c90f133d4276",
+                "783638025ecc9e2a70d5d7a8dc0bd6035e422e1176e1f799e85dfb18b892dad9",
+                "93924e1c53cca2197f61f3d3d16cdf207cd46eed2f316c8c02702dc138826c0e",
+                "451ebbe1c8f95384bd1b076cb98f737936946559303dabc6072e8518f6c18367",
+                "9942d27985fe1bf2cec05d6872beaea0f8c85add742ed9751d947c42fa613550",
+                "41bd38517b7bcaa0d43541eaaa1e215b9d6d4067bb7fd90d895d2ec13f45ac9a"
             ],
-            "email_hash": [
-                "34739ae5a4ecf59a02c4cc55f7bbc5809a61559840cca7be870c3aa78b7c05dc",
-                "a82e1421e9224ec60468d319ade6f995f0c7ae1e2cbedd53ec427e236d4020db",
-                "0b4c9828db0aae05aa42bbd1c0637c1d17b3544b8b0e3598b5085d4d9d840622",
-                "46ce5287fa09d9b105227b65fff00462d8f0bd93364f2077eac3f4755f2e27b3",
-                "fbe8fee49351b0c18fd2ace5e8eaa78979ddaf93f67812a3450e76e256828516"
-            ],
-            "hash": "6f2f7ad17c2d0076231bfb7b98c20dbb017b7dae6094705838c986c58a1286af",
+            "hash": "63945ef4994fe066357468d2f59cc3bc8a2f486ca77995e01ad9a08822dc1047",
             "uri_hash": [
-                "e31973920aaafd2fe7e68acb0b61e53671ad550e9ec26023795049fc4055d320",
-                "bc2f6dc7c808cac26162742bc825e8a60b80be155f4e3ca58b1b111d2422d5e5",
-                "266b849622d9522214c2d1abad7a5cb5ff2f985ebef60f0c4cda100fb20948f4",
-                "102b742151bb1d1c145815cef6ec32415e58506efae4bc7b44a70495d0f4186d",
-                "dd2f160dee247b96abc50ddad1ffc16dfe80e8df20bac7c724ff1defe29ad952",
-                "6d475f427dbdd819585e2c42aa07520489ec792d9a45a8a4e7d943beea4052f4",
-                "0897a86d825faa6a61f6fa96740f17c187c4ce5dfbdbd917fc9557936459a228",
-                "7d0e5570a9312e35e8567835bd0170318fbb0c75a921e5e26c57f1ffbcabb3a8",
-                "a68133ec35a80e0f57c2fe6ae870ed0cdc5c2f29d6d2cac9f0f785955c9c79f7",
-                "335f4b7963db7080ee4e67a8b178717f7a626124ec38604f8159125503b44147",
-                "fcd77a816697f228169abbb37c875ae765ab535f69f6b3fe91b9ab3d32797a42",
-                "1b31b3b1b9ee68ecd415746a114e7eaa7fdd9e9e4287ea12d7f9e3f7390e93d9",
-                "860ffe8fbe5f98dbbe32a0b22c021641b307a9da8869ce68eefc245aa94cc15f",
-                "198da643046494780a4d73232638f88a77dcdf8b7d4fe46670295fdcc1af251c",
-                "43d66f7daf9b279550628886c601e6337565d1860eb411bcfc4a138f3f470dd1",
-                "7f33c00548d4f2ec1e88557732889fbe032ed11f6c017959658bad69652ea43f",
-                "0fc2af46ce9f73b1845dd7f841bfc3deab949260cd06fc3f8439b391fc38b846",
-                "cd2d02afc5e6e3d5650c07f96dbb22f606cde3b26667f067e9deb655b0ca6e16",
-                "daae643b17c6ba0769706925b95f61e3f96407c26e32258211e275f87471598c",
-                "91d741fe2c8e8d83a8321abfe412a4d02cec1b06c7679df60c28c7534bf55013",
-                "2a7394d5f4566af80865cf02ee01259539dce05bc4077d73cf7dcdd0df027a03",
-                "52b17c070786c38e84f9ada7568fd46bdfe97c3ee3066212c10799bd2e815253",
-                "d521a6a6068ffa76332219d488d855bff5a584f3148026da60e80e57b2dda29a",
-                "a3400fdecd0343e6e2ede96c3f95140f84a7130923fa80ff892358bfedf7ecca"
+                "f4050c121bc3f4672448ded6ad4412cc64255d9626a3dbb970292bfdb55ada15",
+                "f162d72193f6a3b9d5a051804e7306c76f98307cbf47541db213bfa0a598f4a9",
+                "35732c9a3f355de669d7577ee38e55165203fcd2d40435bc5e4369b67695299a",
+                "9b403650b8e164c810e00281116ece3424f3a32917a88b3849b4adda1ab48685",
+                "42655b28d70f8ab75966a58ef982be2a3ecc085a6aaac055943f402b2e8b367c"
             ]
         }
     ],
     "header": {
-        "date": "2021-12-31T16:46:19+00:00",
+        "date": "2021-11-06T11:47:23-07:00",
         "delivered_to": [
             "poomon2542@gmail.com"
         ],
-        "from": "hello@wizeprep.com",
+        "from": "liamwelgangunn@uvic.ca",
         "header": {
             "arc-authentication-results": [
-                "i=1; mx.google.com;       dkim=pass header.i=@cio62342.wizeprep.com header.s=mailo header.b=BQUvQsYB;       dkim=pass header.i=@mailgun.org header.s=mg header.b=\"2E/7Qpj5\";       spf=pass (google.com: domain of postmaster@cio62342.wizeprep.com designates 69.72.44.1 as permitted sender) smtp.mailfrom=postmaster@cio62342.wizeprep.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=wizeprep.com"
+                "i=1; mx.google.com;       spf=pass (google.com: best guess record for domain of engn-ugrad-engn-bounces@lists.uvic.ca designates 142.104.148.217 as permitted sender) smtp.mailfrom=engn-ugrad-engn-bounces@lists.uvic.ca"
             ],
             "arc-message-signature": [
-                "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=message-id:list-unsubscribe:to:from:subject:mime-version:date         :dkim-signature:dkim-signature;        bh=pWWIAY+GUTQOm0zwHEMsZmMhqtjrlyTJ5vJwGzaJerM=;        b=xxtkxZW51BXCZiEUJ8zN/UtnP8LWJOfnKitJ0aw7pTKpa7JVFkJesL0JN2trNgZz1S         KzJxw6z3aIc8N+TE6Z1cDqne42DiwAwtNPNzMnIClvPv7jO9v11Ew/TXIeTG63QGEaj+         x7nnB/QjGjwDA5XWz2NllpiaA8CiRnStxHwhIBdwMIcThceOj6RytJ+TftIRy5XXzt2u         Cz2Uemk9B/flIMhBhuiCUQMwY1btWlxmDOvX8QgXIgch8GQoG9n4hYhKmw3BD3dDqym4         iOvqdVgH3QLtoKeatrj9qa+y2QjO0H5NSd9wI+6Rk1FlwnM/wm5wUWiShmfA660xWM2l         tdWw=="
+                "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=sender:errors-to:list-subscribe:list-help:list-post:list-archive         :list-unsubscribe:list-id:precedence:subject:content-language         :thread-index:mime-version:message-id:date:to:from;        bh=BwqhAsZb25qZbB0kFHchc2KTxZa11UaGmCGzlPEhFxw=;        b=HBz2igq3++HX9ed/E07YYBTP6ifUfYakj3A/w+qDqkgy7S9A5pEFhSrcG9HeebyQbN         x7OSZVK3r0E5AHx2QinJOILqBhkVqEff8sXSLSZDS8kMZCO1fdu2tF5cRGqXrde07pKu         Yc3d1Jz9n5/OB1uXa5QvGCJorirwssWZK01CqcO1l0Flz8nkoAutTrfigHctsn5l4Khv         oSieZlgGk3fWFMFwUCBZjy5YGLGz/D5/xB4XoUOKCPy35P5whOr3NdfFVHlAFkTLBSw+         faO3ud5WGwwMmbzgHYbEd4F+enQ5fkhA0LbMEWCOIIlp1lTMuYxEN2+XPP7klDUyW+Om         B9HQ=="
             ],
             "arc-seal": [
-                "i=1; a=rsa-sha256; t=1640969181; cv=none;        d=google.com; s=arc-20160816;        b=zQnkz5PG8LbN85uGiV6CYVzHtN88T48PQ2gkXiV3YNrZVuai0187njEBJ0pIquEAQi         wui5hAbXB4yh2smMIFqhVlGCkArehZr+PY9Qpk7xVb0MqsZhdrWnL3nrcu/kVSKp/dwE         kJ78VyOTv8W3sFR+aYRMNy8jmxhBYb8fOhjTHRekq6fPNBlqjIUer7Pn3hqymBZvNOwd         pt3irpe11PewPTuPpGj1IlZPO+BAGPibUTjwmDpTb+FCSH9lVt8aMNTUuICMpiSnaZqX         O0JvBrsFbB0aiIaAbhp+/v4InkWUZ8XMLVzQ+tEecr/X1wnDzFcDEyLRMbi6G08qVt7t         0Cbw=="
+                "i=1; a=rsa-sha256; t=1636407320; cv=none;        d=google.com; s=arc-20160816;        b=QDyS4neOTqAUoFMHtRqAu/5zPgpWnGkMuSSVI83lKN0X1zw/mB1rs3Y1trNX+XCY7X         ceK/7Tn5h+8IesqgD5NEJvSLBxL2SqkLWml2HI5bZn3F4JOi/itKndaYAcHGsB2AzjQb         lQs6g0zTNISSRwilRZxjswgJvv3QpNmHntrHdt1eLSn4ZmjZjhudWERVrsPME6zFm3tt         FVCSpQAfGxLYbdZzou7knY6g5FMvRSkFon9qxu+G2+xnGZLB4qb7msmN8gXMLVj8G9WV         5q0vey38qlCIBtyhvnexh+QdpjzfhSq2lS98NnjOXYRPILZztoQq2GCg+gFPW30SpY0Z         9z9g=="
             ],
             "authentication-results": [
-                "mx.google.com;       dkim=pass header.i=@cio62342.wizeprep.com header.s=mailo header.b=BQUvQsYB;       dkim=pass header.i=@mailgun.org header.s=mg header.b=\"2E/7Qpj5\";       spf=pass (google.com: domain of postmaster@cio62342.wizeprep.com designates 69.72.44.1 as permitted sender) smtp.mailfrom=postmaster@cio62342.wizeprep.com;       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=wizeprep.com"
+                "mx.google.com;       spf=pass (google.com: best guess record for domain of engn-ugrad-engn-bounces@lists.uvic.ca designates 142.104.148.217 as permitted sender) smtp.mailfrom=engn-ugrad-engn-bounces@lists.uvic.ca"
+            ],
+            "content-language": [
+                "en-ca"
             ],
             "content-type": [
-                "multipart/alternative; boundary=\"d91c875a3ce17b3bbbd71ed8e7fa0ef8fcbd96c9b4bb1eda1efcdd2a7652\""
+                "multipart/alternative; boundary=\"----=_NextPart_000_0001_01D7D304.10E482A0\""
             ],
             "date": [
-                "Fri, 31 Dec 2021 16:46:19 +0000"
+                "Sat, 06 Nov 2021 11:47:23 -0700"
             ],
             "delivered-to": [
                 "poomon2542@gmail.com"
             ],
-            "dkim-signature": [
-                "a=rsa-sha256; v=1; c=relaxed/relaxed; d=cio62342.wizeprep.com; q=dns/txt; s=mailo; t=1640969180; h=Message-Id: List-Unsubscribe: To: From: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id; bh=pWWIAY+GUTQOm0zwHEMsZmMhqtjrlyTJ5vJwGzaJerM=; b=BQUvQsYBqKFAfg2dGfykx+LJqqIfQyH+qcgv6xtdXhedCa2THEL1qlQEz7ZJU41uHtO67GOz Dzd7MSLFNBn2qjSCblDH0dqGYqYMko/VBl9UBCmvQ2bZnq34YXN34JjekdARatZ2MnoBZOZt lnqvH406pWtvGBJv8fZ4KaSxvlQ=",
-                "a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.org; q=dns/txt; s=mg; t=1640969180; h=Message-Id: List-Unsubscribe: To: From: Subject: Content-Type: Mime-Version: Date: X-Feedback-Id; bh=pWWIAY+GUTQOm0zwHEMsZmMhqtjrlyTJ5vJwGzaJerM=; b=2E/7Qpj57BA12YHdJOxtOnSjOrHXNYSFhiA4/6Gzd2K96YF62Fzt2v8yDJovkw8zP/4NuXqU TUYyrqQlBJX2MyChwWQqvDNoYnyWZdRKw1J6DUUeCp6tUIC6ZLHUVa6CfdO7m4FMk0Ocg2B0 RIjAV7yiDFfHVzuLHI6b9i8XtOY="
+            "errors-to": [
+                "engn-ugrad-engn-bounces@lists.uvic.ca"
             ],
             "from": [
-                "Wize <hello@wizeprep.com>"
+                "Liam Welgan-Gunn <liamwelgangunn@uvic.ca>"
+            ],
+            "list-archive": [
+                "<https://lists.uvic.ca/mailman/private/engn-ugrad-engn/>"
+            ],
+            "list-help": [
+                "<mailto:engn-ugrad-engn-request@lists.uvic.ca?subject=help>"
+            ],
+            "list-id": [
+                "<engn-ugrad-engn.lists.uvic.ca>"
+            ],
+            "list-post": [
+                "<mailto:engn-ugrad-engn@lists.uvic.ca>"
+            ],
+            "list-subscribe": [
+                "<https://lists.uvic.ca/mailman/listinfo/engn-ugrad-engn>,\t<mailto:engn-ugrad-engn-request@lists.uvic.ca?subject=subscribe>"
             ],
             "list-unsubscribe": [
-                "<mailto:32.KJFUW4KCM5GUCQKYGRJFSY3DJA4U2QJYIZBV6ZLHO5RU4MTHHU6Q====@unsubscribe2.customer.io>, <https://email.wizeprep.com/unsubscribe/RKKqBgMAAX4RYccH9MA8FC_egwcN2g==>"
+                "<https://lists.uvic.ca/mailman/options/engn-ugrad-engn>,\t<mailto:engn-ugrad-engn-request@lists.uvic.ca?subject=unsubscribe>"
             ],
             "message-id": [
-                "<20211231164619.225f66625f2f6179@cio62342.wizeprep.com>"
+                "<000001d7d33e$bd4137c0$37c3a740$@uvic.ca>"
             ],
             "mime-version": [
                 "1.0"
             ],
+            "precedence": [
+                "list"
+            ],
             "received": [
-                "by 2002:a5d:6541:0:0:0:0:0 with SMTP id z1csp9931548wrv;        Fri, 31 Dec 2021 08:46:21 -0800 (PST)",
-                "from m44-1.mailgun.net (m44-1.mailgun.net. [69.72.44.1])        by mx.google.com with UTF8SMTPS id c8si6450463pls.601.2021.12.31.08.46.20        for <poomon2542@gmail.com>        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);        Fri, 31 Dec 2021 08:46:21 -0800 (PST)",
-                "from <unknown> (<unknown> []) by api-n01.prod.us-west-2.postgun.com with HTTP id 61cf33dbf41cb327b6086e8c; Fri, 31 Dec 2021 16:46:19 GMT"
+                "by 2002:a5d:43cb:0:0:0:0:0 with SMTP id v11csp446863wrr;        Mon, 8 Nov 2021 13:35:20 -0800 (PST)",
+                "from woolbird.comp.uvic.ca (woolbird.comp.uvic.ca. [142.104.148.217])        by mx.google.com with ESMTPS id u2si7859522pfk.334.2021.11.08.13.34.57        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);        Mon, 08 Nov 2021 13:35:20 -0800 (PST)",
+                "from woolbird.comp.uvic.ca (localhost [127.0.0.1])\tby woolbird.comp.uvic.ca (8.14.4/8.14.4) with ESMTP id 1A8LYQDW063176;\tMon, 8 Nov 2021 13:34:55 -0800",
+                "from hooktooth.comp.uvic.ca (hooktooth.comp.uvic.ca [142.104.42.106])\tby woolbird.comp.uvic.ca (8.14.4/8.14.4) with ESMTP id 1A6IlXjT014803\t(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256\tverify=FAIL)\tfor <engn-ugrad-engn@lists.uvic.ca>; Sat, 6 Nov 2021 11:47:33 -0700",
+                "from rommy.comp.uvic.ca (rommy.comp.uvic.ca [142.104.42.101])\tby hooktooth.comp.uvic.ca (8.14.4/8.14.4) with ESMTP id 1A6IlOIb040143\t(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-GCM-SHA384 bits=256\tverify=OK)\tfor <engn-ugrad-engn@lists.uvic.ca>; Sat, 6 Nov 2021 11:47:24 -0700",
+                "from DESKTOPRT3LQIM (w134-87-043-128.wireless.uvic.ca\t[134.87.43.128]) (authenticated bits=0)\tby rommy.comp.uvic.ca (8.14.7/8.14.4) with ESMTP id 1A6IlMBG017401\t(version=TLSv1/SSLv3 cipher=ECDHE-RSA-AES256-GCM-SHA384 bits=256\tverify=NO)\tfor <engn-ugrad-engn@lists.uvic.ca>; Sat, 6 Nov 2021 11:47:23 -0700"
             ],
             "received-spf": [
-                "pass (google.com: domain of postmaster@cio62342.wizeprep.com designates 69.72.44.1 as permitted sender) client-ip=69.72.44.1;"
+                "pass (google.com: best guess record for domain of engn-ugrad-engn-bounces@lists.uvic.ca designates 142.104.148.217 as permitted sender) client-ip=142.104.148.217;"
             ],
             "return-path": [
-                "<postmaster@cio62342.wizeprep.com>"
+                "<engn-ugrad-engn-bounces@lists.uvic.ca>"
+            ],
+            "sender": [
+                "Engn-ugrad-engn <engn-ugrad-engn-bounces@lists.uvic.ca>"
             ],
             "subject": [
-                "Happy New Year! What are your new year's resolutions?"
+                "[Engn-ugrad-engn] UVic IEEE Student Branch Fall SkillDev Workshops"
+            ],
+            "thread-index": [
+                "AdfTPiPnNnAx/i66RVK1rKo7JjvoAA=="
             ],
             "to": [
-                "poomon2542@gmail.com"
+                "engn-ugrad-engn@lists.uvic.ca"
             ],
-            "x-feedback-id": [
-                "5ff392e611d18f0627d48739:mailgun"
+            "x-beenthere": [
+                "engn-ugrad-engn@lists.uvic.ca"
             ],
             "x-google-smtp-source": [
-                "ABdhPJxwlW0fhKvsKl2+hkCtbvFsuuG8+sodfzKdQtx/1tKj/MqYtP6I7h+9NhS1NSaI2q3Yxb7C"
+                "ABdhPJxEZyFIzRnKxg6Lrd54thpss8Z1Wk4TfwquIsez4JbxRC38bCLQSG3TTfPpr44jWwfaYS3F"
             ],
             "x-mailer": [
-                "Customer.io (RKKqBgMAAX4RYccH9MA8FC_egwcN2g==; +https://whatis.customeriomail.com)"
+                "Microsoft Outlook 16.0"
             ],
-            "x-mailgun-dkim": [
-                "true"
+            "x-mailman-approved-at": [
+                "Mon, 08 Nov 2021 13:34:25 -0800"
             ],
-            "x-mailgun-native-send": [
-                "true"
-            ],
-            "x-mailgun-sending-ip": [
-                "69.72.44.1"
-            ],
-            "x-mailgun-sid": [
-                "WyIyZmQ0MSIsICJwb29tb24yNTQyQGdtYWlsLmNvbSIsICI0NTM2NWUiXQ=="
-            ],
-            "x-mailgun-track-clicks": [
-                "false"
-            ],
-            "x-mailgun-track-opens": [
-                "false"
-            ],
-            "x-mailgun-variables": [
-                "{\"email_id\":\"RKKqBgMAAX4RYccH9MA8FC_egwcN2g==\"}"
+            "x-mailman-version": [
+                "2.1.23"
             ],
             "x-received": [
-                "by 2002:a63:b50d:: with SMTP id y13mr31475123pge.286.1640969181024;        Fri, 31 Dec 2021 08:46:21 -0800 (PST)"
+                "by 2002:a62:ae0f:0:b0:481:7fe:c719 with SMTP id q15-20020a62ae0f000000b0048107fec719mr2685819pff.14.1636407320402;        Mon, 08 Nov 2021 13:35:20 -0800 (PST)"
             ],
-            "x-report-abuse-to": [
-                "badactor@customer.io"
+            "x-scanned-by": [
+                "MIMEDefang 2.78 on 142.104.148.217",
+                "MIMEDefang 2.78 on 142.104.148.217",
+                "MIMEDefang 2.78",
+                "MIMEDefang 2.84"
+            ],
+            "x-uvic-outbound-scan": [
+                "woolbird.comp.uvic.ca Not_scanned_Host",
+                "woolbird.comp.uvic.ca Not_scanned_Host",
+                "hooktooth.comp.uvic.ca Not_scanned_Host"
+            ],
+            "x-uvic-scan": [
+                "woolbird.comp.uvic.ca filter_version 3.7.9",
+                "woolbird.comp.uvic.ca filter_version 3.7.9",
+                "hooktooth.comp.uvic.ca filter_version 3.7.9",
+                "rommy.comp.uvic.ca filter_version 3.7.9"
+            ],
+            "x-uvic-spam-scan": [
+                "woolbird.comp.uvic.ca Not_scanned_LOCAL",
+                "woolbird.comp.uvic.ca Not_scanned_LOCAL",
+                "hooktooth.comp.uvic.ca Not_scanned_LOCAL"
+            ],
+            "x-uvic-virus-scanned": [
+                "OK - Passed virus scan by ClamAV (clamd) on woolbird",
+                "OK - Passed virus scan by Sophos (sophie) on woolbird",
+                "OK - Passed virus scan by ClamAV (clamd) on woolbird",
+                "OK - Passed virus scan by Sophos (sophie) on woolbird",
+                "OK - Passed virus scan by ClamAV (clamd) on hooktooth",
+                "OK - Passed virus scan by Sophos (sophie) on hooktooth",
+                "OK - Passed virus scan by ClamAV (clamd) on rommy",
+                "OK - Passed virus scan by Sophos (sophie) on rommy"
             ]
         },
         "received": [
             {
                 "by": [
-                    "2002:a5d:6541:0:0:0:0:0"
+                    "2002:a5d:43cb:0:0:0:0:0"
                 ],
-                "date": "2021-12-31T08:46:21-08:00",
-                "src": "by 2002:a5d:6541:0:0:0:0:0 with smtp id z1csp9931548wrv; fri, 31 dec 2021 08:46:21 -0800 (pst)",
-                "with": "smtp id z1csp9931548wrv"
+                "date": "2021-11-08T13:35:20-08:00",
+                "src": "by 2002:a5d:43cb:0:0:0:0:0 with smtp id v11csp446863wrr; mon, 8 nov 2021 13:35:20 -0800 (pst)",
+                "with": "smtp id v11csp446863wrr"
             },
             {
                 "by": [
                     "mx.google.com"
                 ],
-                "date": "2021-12-31T08:46:21-08:00",
-                "for": [
-                    "poomon2542@gmail.com"
-                ],
+                "date": "2021-11-08T13:35:20-08:00",
                 "from": [
-                    "m44-1.mailgun.net",
-                    "69.72.44.1"
+                    "woolbird.comp.uvic.ca",
+                    "142.104.148.217"
                 ],
-                "src": "from m44-1.mailgun.net (m44-1.mailgun.net. [69.72.44.1]) by mx.google.com with utf8smtps id c8si6450463pls.601.2021.12.31.08.46.20 for <poomon2542@gmail.com> (version=tls1_3 cipher=tls_aes_128_gcm_sha256 bits=128/128); fri, 31 dec 2021 08:46:21 -0800 (pst)",
-                "with": "utf8smtps id c8si6450463pls.601.2021.12.31.08.46.20"
+                "src": "from woolbird.comp.uvic.ca (woolbird.comp.uvic.ca. [142.104.148.217]) by mx.google.com with esmtps id u2si7859522pfk.334.2021.11.08.13.34.57 (version=tls1_2 cipher=ecdhe-ecdsa-aes128-gcm-sha256 bits=128/128); mon, 08 nov 2021 13:35:20 -0800 (pst)",
+                "with": "esmtps id u2si7859522pfk.334.2021.11.08.13.34.57 (version=tls1_2 cipher=ecdhe-ecdsa-aes128-gcm-sha256 bits=128/128)"
             },
             {
                 "by": [
-                    "api-n01.prod.us-west-2.postgun.com"
+                    "woolbird.comp.uvic.ca"
                 ],
-                "date": "2021-12-31T16:46:19+00:00",
-                "src": "from <unknown> (<unknown> []) by api-n01.prod.us-west-2.postgun.com with http id 61cf33dbf41cb327b6086e8c; fri, 31 dec 2021 16:46:19 gmt",
-                "with": "http id 61cf33dbf41cb327b6086e8c"
+                "date": "2021-11-08T13:34:55-08:00",
+                "from": [
+                    "127.0.0.1",
+                    "woolbird.comp.uvic.ca"
+                ],
+                "src": "from woolbird.comp.uvic.ca (localhost [127.0.0.1]) by woolbird.comp.uvic.ca (8.14.4/8.14.4) with esmtp id 1a8lyqdw063176; mon, 8 nov 2021 13:34:55 -0800",
+                "with": "esmtp id 1a8lyqdw063176"
+            },
+            {
+                "by": [
+                    "woolbird.comp.uvic.ca"
+                ],
+                "date": "2021-11-06T11:47:33-07:00",
+                "for": [
+                    "engn-ugrad-engn@lists.uvic.ca"
+                ],
+                "from": [
+                    "142.104.42.106",
+                    "hooktooth.comp.uvic.ca"
+                ],
+                "src": "from hooktooth.comp.uvic.ca (hooktooth.comp.uvic.ca [142.104.42.106]) by woolbird.comp.uvic.ca (8.14.4/8.14.4) with esmtp id 1a6ilxjt014803 (version=tlsv1/sslv3 cipher=dhe-rsa-aes256-gcm-sha384 bits=256 verify=fail) for <engn-ugrad-engn@lists.uvic.ca>; sat, 6 nov 2021 11:47:33 -0700",
+                "with": "esmtp id 1a6ilxjt014803 (version=tlsv1/sslv3 cipher=dhe-rsa-aes256-gcm-sha384 bits=256 verify=fail)"
+            },
+            {
+                "by": [
+                    "hooktooth.comp.uvic.ca"
+                ],
+                "date": "2021-11-06T11:47:24-07:00",
+                "for": [
+                    "engn-ugrad-engn@lists.uvic.ca"
+                ],
+                "from": [
+                    "rommy.comp.uvic.ca",
+                    "142.104.42.101"
+                ],
+                "src": "from rommy.comp.uvic.ca (rommy.comp.uvic.ca [142.104.42.101]) by hooktooth.comp.uvic.ca (8.14.4/8.14.4) with esmtp id 1a6iloib040143 (version=tlsv1/sslv3 cipher=dhe-rsa-aes256-gcm-sha384 bits=256 verify=ok) for <engn-ugrad-engn@lists.uvic.ca>; sat, 6 nov 2021 11:47:24 -0700",
+                "with": "esmtp id 1a6iloib040143 (version=tlsv1/sslv3 cipher=dhe-rsa-aes256-gcm-sha384 bits=256 verify=ok)"
+            },
+            {
+                "by": [
+                    "rommy.comp.uvic.ca"
+                ],
+                "date": "2021-11-06T11:47:23-07:00",
+                "for": [
+                    "engn-ugrad-engn@lists.uvic.ca"
+                ],
+                "from": [
+                    "w134-87-043-128.wireless.uvic.ca",
+                    "134.87.43.128"
+                ],
+                "src": "from desktoprt3lqim (w134-87-043-128.wireless.uvic.ca [134.87.43.128]) (authenticated bits=0) by rommy.comp.uvic.ca (8.14.7/8.14.4) with esmtp id 1a6ilmbg017401 (version=tlsv1/sslv3 cipher=ecdhe-rsa-aes256-gcm-sha384 bits=256 verify=no) for <engn-ugrad-engn@lists.uvic.ca>; sat, 6 nov 2021 11:47:23 -0700",
+                "with": "esmtp id 1a6ilmbg017401 (version=tlsv1/sslv3 cipher=ecdhe-rsa-aes256-gcm-sha384 bits=256 verify=no)"
             }
         ],
         "received_domain": [
-            "m44-1.mailgun.net",
+            "rommy.comp.uvic.ca",
             "mx.google.com",
-            "api-n01.prod.us-west-2.postgun.com"
+            "hooktooth.comp.uvic.ca",
+            "woolbird.comp.uvic.ca"
         ],
         "received_foremail": [
-            "poomon2542@gmail.com"
+            "engn-ugrad-engn@lists.uvic.ca"
         ],
         "received_ip": [
-            "69.72.44.1",
-            "2002:a5d:6541::"
+            "134.87.43.128",
+            "142.104.148.217",
+            "2002:a5d:43cb::",
+            "142.104.42.106",
+            "142.104.42.101"
         ],
-        "subject": "Happy New Year! What are your new year's resolutions?",
+        "subject": "[Engn-ugrad-engn] UVic IEEE Student Branch Fall SkillDev Workshops",
         "to": [
-            "poomon2542@gmail.com"
+            "engn-ugrad-engn@lists.uvic.ca"
         ]
     }
 }
