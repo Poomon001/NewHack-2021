@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { useResult } from "./util/useResult";
 import { Doughnut, Line, Pie } from "react-chartjs-2"; // ref: https://github.com/reactchartjs/react-chartjs-2
 
-const Factors = () => {
-  const [type, setType] = useState(1);
+const Factors = ({ type, setType, height }) => {
   const result = useResult().result;
   const { sender, subject, cc, date, bodyContent, attachments, total } = result;
 
@@ -51,7 +50,6 @@ const Factors = () => {
 
   const option = {
     plugins: {
-      legend: { display: true },
       title: {
         display: false,
         text: "Phishing inspection (%)",
@@ -77,6 +75,7 @@ const Factors = () => {
       setType(type + 1);
     }
   };
+
   const renderGraph = () => {
     if (type === 1) {
       return (
@@ -87,7 +86,7 @@ const Factors = () => {
     } else if (type === 2) {
       return (
         <div>
-          <Line data={graph} />
+          <Line data={graph} height={height} />
         </div>
       );
     } else if (type === 3) {
@@ -103,7 +102,9 @@ const Factors = () => {
     <div>
       {renderGraph()}
       <div className="dropdown-content" id="myDropdown">
-        <button onClick={onClickHandler}>Change</button>
+        <button onClick={onClickHandler} className="nextButton">
+          Change
+        </button>
       </div>
     </div>
   );
