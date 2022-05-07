@@ -5,6 +5,7 @@ const Lightbox = (props) => {
   const lightbox = useLightbox();
   const DisplayLightbox = lightbox.DisplayLightbox;
   const Button = lightbox.Button;
+
   return (
     <>
       <DisplayLightbox>

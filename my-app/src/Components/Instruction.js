@@ -8,7 +8,7 @@ function Instruction(props) {
   });
   return (
     <section className="Instruction">
-      <h4 ref={ref}>Instruction</h4>
+      <h4 ref={ref}>INSTRUCTION</h4>
       <p>
         Our plan is to provide peace of mind to the community by allowing them
         to protect their privacy by checking suspicious activities using our web

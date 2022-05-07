@@ -1,52 +1,17 @@
-import DragAndDrop from "./DragAndDrop";
 import About from "./About";
 import Instruction from "./Instruction";
+import { useLightbox } from "./util/useLightbox";
+import Upload from "./Upload";
 
 const Content = ({ setAboutRef, setInstructionRef }) => {
+  const isOpen = useLightbox().isOpen;
   return (
     <section className="container">
-      <DragAndDrop />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <h1 className="title">
+        <span className="prefix">Phishing </span>
+        <span className="suffix">Evaluator</span>
+      </h1>
+      <Upload />
       <About setAboutRef={setAboutRef} />
       <br />
       <br />
@@ -86,68 +51,7 @@ const Content = ({ setAboutRef, setInstructionRef }) => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Instruction setInstructionRef={setInstructionRef} />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <br />
       <br />
       <br />

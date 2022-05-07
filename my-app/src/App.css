@@ -1,7 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Courier New", Courier, monospace;
+  overflow: inherit;
+}
+
+#body {
+  display: block;
 }
 
 #nothing {
@@ -15,6 +20,21 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: xxx-large;
+  font-weight: bolder;
+  margin-top: 1em;
+}
+
+.suffix {
+  color: skyblue;
+}
+
+.prefix {
+  color: lightcoral;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,41 +55,39 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #333333;
+  color: #000;
   font-weight: bold;
   font-size: 30px;
 }
 
 .Name {
-  color: red;
+  color: #000;
   width: 100%;
   position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  max-width: 200px;
+  max-width: 50%;
   height: 200px;
-  padding: 25px;
+  padding: 2em 2em;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
-  color: #0099ff;
   font-weight: 500;
   font-size: 22px;
   cursor: pointer;
-  /*color: #cccccc;*/
-  border: 4px dashed #009578;
+  background-color: #fff;
+  border: 2px dashed skyblue;
   border-radius: 10px;
+  box-shadow: 0px 5px 16px -2px rgb(42 115 217 / 70%);
 }
 
 .nav-links {
   flex: 1;
   text-align: right;
-  background-color: turquoise;
-  opacity: 0.9;
-  height: 13vh;
+  background-color: skyblue;
+  opacity: 0.9s;
 }
 
 .nav-links ul li {
@@ -80,7 +98,7 @@
 }
 
 .nav-links ul li a {
-  color: #282c34;
+  color: #000;
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -90,7 +108,7 @@
   content: "";
   width: 0%;
   height: 2px;
-  background: #282c34;
+  background: #000;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -117,7 +135,7 @@
 
 .container {
   min-height: 100vh;
-  background: linear-gradient(yellow, turquoise);
+  background: #fff;
 }
 
 @keyframes App-logo-spin {
@@ -146,10 +164,11 @@ nav img {
 }
 
 #popUp img {
-  width: 170px;
+  width: 200px;
 }
 
 #popUp {
+  position: relative;
   width: 50%;
   height: 50%;
   border-radius: 10px;
@@ -159,13 +178,12 @@ nav img {
   background-size: cover;
   color: red;
   width: 100%;
-  position: absolute;
-  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  max-width: 200px;
+  max-width: 50%;
   height: 200px;
+  visibility: hidden;
 }
 
 #popUp::after {
@@ -183,14 +201,14 @@ nav img {
 
 .topContent {
   position: relative;
-  top: 40vh;
+  top: 13em;
 }
 
 .Instruction,
 .About {
   position: relative;
   text-align: center;
-  top: 80vh;
+  top: 40em;
 }
 
 .Instruction h4,
@@ -221,15 +239,63 @@ nav img {
   width: 100%;
 }
 
-.lightboxButton {
-  position: relative;
-  top: -30vh;
-}
-
 .lightbox {
   background-color: rgba(0, 0, 0, 0.75);
-  position: absolute;
-  height: 113vh;
+  position: relative;
   z-index: 100;
   width: 100%;
+  height: 100vh;
+}
+
+.loader {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lightboxButton {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+    sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.lightboxButton:hover,
+.lightboxButton:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.lightboxButton:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.lightboxButton:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+#lightboxButton {
+  visibility: visible;
 }
