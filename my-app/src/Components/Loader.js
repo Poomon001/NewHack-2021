@@ -5,15 +5,18 @@ const Loader = ({ area }) => {
   const { promiseInProgress } = usePromiseTracker({ area: area });
 
   return (
-    promiseInProgress && (
-      <Audio
-        height="100"
-        width="100"
-        color="grey"
-        ariaLabel="loading"
-        area={area}
-      />
-    )
+    <div className="loader">
+      {promiseInProgress && (
+        <Audio
+          height="80"
+          width="80"
+          color="lightcoral"
+          ariaLabel="loading"
+          area={area}
+          className="loader"
+        />
+      )}
+    </div>
   );
 };
 

@@ -1,37 +1,34 @@
 import { useLightbox } from "./util/useLightbox";
 const NavBar = ({ scroll, aboutRef, instructionRef }) => {
-  const lightbox = useLightbox();
-  const isOpen = lightbox.isOpen;
+  const isOpen = useLightbox().isOpen;
   return (
-    !isOpen && (
-      <nav className="nav-links">
-        <a className="logo" href="/">
-          <img src="new-logo.png" alt="" />
-        </a>
-        <ul>
-          <li className="Pages">
-            <a
-              href="about"
-              onClick={(e) => {
-                scroll(e, aboutRef);
-              }}
-            >
-              ABOUT
-            </a>
-          </li>
-          <li className="Pages">
-            <a
-              href="instruction"
-              onClick={(e) => {
-                scroll(e, instructionRef);
-              }}
-            >
-              INSTRUCTION
-            </a>
-          </li>
-        </ul>
-      </nav>
-    )
+    <nav className="nav-links">
+      <a className="logo" href="/">
+        <img src="new-logo.png" alt="" />
+      </a>
+      <ul>
+        <li className="Pages">
+          <a
+            href="about"
+            onClick={(e) => {
+              scroll(e, aboutRef);
+            }}
+          >
+            ABOUT
+          </a>
+        </li>
+        <li className="Pages">
+          <a
+            href="instruction"
+            onClick={(e) => {
+              scroll(e, instructionRef);
+            }}
+          >
+            INSTRUCTION
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

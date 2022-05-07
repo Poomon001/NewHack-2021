@@ -5,6 +5,10 @@
   overflow: inherit;
 }
 
+#body {
+  display: block;
+}
+
 #nothing {
   display: none;
 }
@@ -179,6 +183,7 @@ nav img {
   text-align: center;
   max-width: 50%;
   height: 200px;
+  visibility: hidden;
 }
 
 #popUp::after {
@@ -242,7 +247,12 @@ nav img {
   height: 100vh;
 }
 
-/* CSS */
+.loader {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .lightboxButton {
   background-color: #e1ecf4;
   border-radius: 3px;
@@ -284,4 +294,8 @@ nav img {
   background-color: #a0c7e4;
   box-shadow: none;
   color: #2c5777;
+}
+
+#lightboxButton {
+  visibility: visible;
 }
