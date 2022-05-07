@@ -30,7 +30,6 @@ export const LightboxProvider = (props) => {
         onClick={isOpen ? close : open}
         id="lightboxButton"
         className="lightboxButton"
-        style={{}}
       >
         {isOpen ? "Close The Result" : "Open The Result"}
       </button>
