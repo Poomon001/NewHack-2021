@@ -45,7 +45,7 @@ const DragAndDrop = () => {
   return (
     <>
       {/* upload form */}
-      <div {...getRootProps()} /* style={{width: 0%}} */>
+      <div {...getRootProps()}>
         <input {...getInputProps()} accept=".eml" id="uploader" />
         {isDragActive ? (
           <>
@@ -70,9 +70,9 @@ const DragAndDrop = () => {
             </span>
           </>
         )}
-      </div>
-      <div id="popUp">
-        <img src="file.png" alt="file" style={{ radiant: "red" }} id="file" />
+        <div id="popUp">
+          <img src="file.png" alt="file" style={{ radiant: "red" }} id="file" />
+        </div>
       </div>
     </>
   );

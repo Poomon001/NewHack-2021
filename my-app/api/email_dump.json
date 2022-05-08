@@ -209,8 +209,8 @@
                     "poomon2542@gmail.com"
                 ],
                 "from": [
-                    "69.72.44.1",
-                    "m44-1.mailgun.net"
+                    "m44-1.mailgun.net",
+                    "69.72.44.1"
                 ],
                 "src": "from m44-1.mailgun.net (m44-1.mailgun.net. [69.72.44.1]) by mx.google.com with utf8smtps id c8si6450463pls.601.2021.12.31.08.46.20 for <poomon2542@gmail.com> (version=tls1_3 cipher=tls_aes_128_gcm_sha256 bits=128/128); fri, 31 dec 2021 08:46:21 -0800 (pst)",
                 "with": "utf8smtps id c8si6450463pls.601.2021.12.31.08.46.20"
@@ -225,9 +225,9 @@
             }
         ],
         "received_domain": [
+            "m44-1.mailgun.net",
             "api-n01.prod.us-west-2.postgun.com",
-            "mx.google.com",
-            "m44-1.mailgun.net"
+            "mx.google.com"
         ],
         "received_foremail": [
             "poomon2542@gmail.com"
