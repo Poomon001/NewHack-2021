@@ -20,6 +20,9 @@ const Display = () => {
       type1 == 2
         ? `0em 0em 0em calc(${width / 365}em)`
         : `0em 0em 0em calc(${width / 170}em)`,
+    backgroundColor: "white",
+    padding: "1em",
+    border: "1px solid gray",
   };
 
   let graphStyle2 = {
@@ -31,6 +34,9 @@ const Display = () => {
       type2 == 2
         ? `0em calc(${width / 285}em) 0em 0em`
         : `0em calc(${width / 150}em) 0em 0em`,
+    backgroundColor: "white",
+    padding: "1em",
+    border: "1px solid gray",
   };
 
   let wrapper = {
@@ -39,7 +45,7 @@ const Display = () => {
     boxSizing: "border-box",
   };
 
-  document.getElementById("lightboxButton").style.top = "90%";
+  document.getElementById("lightboxButton").style.top = "85%";
   document.getElementById("posibility") &&
     (document.getElementById("posibility").style.display = "block");
 

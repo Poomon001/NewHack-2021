@@ -4,6 +4,7 @@ import { LightboxProvider } from "./Components/util/useLightbox";
 import Display from "./Components/Display";
 import { ResultProvider } from "./Components/util/useResult";
 import Body from "./Components/Body";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
           <Lightbox>
             <Display />
           </Lightbox>
-          <Body />
+          <SimpleReactLightbox>
+            <Body />
+          </SimpleReactLightbox>
         </ResultProvider>
       </LightboxProvider>
     </div>

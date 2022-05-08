@@ -45,13 +45,13 @@ const DragAndDrop = () => {
   return (
     <>
       {/* upload form */}
-      <div {...getRootProps()}>
-        <input {...getInputProps()} accept=".eml" />
+      <div {...getRootProps()} /* style={{width: 0%}} */>
+        <input {...getInputProps()} accept=".eml" id="uploader" />
         {isDragActive ? (
           <>
             <span className="Name">
               Drop file here...
-              <img src="file.png" alt="file" />
+              <img src="file.png" alt="file" id="file" />
             </span>
             <span>
               {(document.getElementById("popUp").style.visibility = "hidden")}
@@ -66,13 +66,13 @@ const DragAndDrop = () => {
           <>
             <span className="Name">
               Click or drop file here
-              <img src="file.png" alt="file" />
+              <img src="file.png" alt="file" id="file" />
             </span>
           </>
         )}
-        <div id="popUp">
-          <img src="file.png" alt="file" style={{ radiant: "red" }} />
-        </div>
+      </div>
+      <div id="popUp">
+        <img src="file.png" alt="file" style={{ radiant: "red" }} id="file" />
       </div>
     </>
   );
