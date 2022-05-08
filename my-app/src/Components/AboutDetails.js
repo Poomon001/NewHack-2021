@@ -2,10 +2,10 @@ import React from "react";
 
 function AboutDetails() {
   return (
-    <div>
+    <div id="aboutLists">
       <h1 className="subHeader">Calculation</h1>
       <br />
-      <ul id="aboutLists">
+      <ul>
         <li>Detail</li>
       </ul>
     </div>
