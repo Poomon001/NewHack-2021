@@ -240,7 +240,7 @@ nav img {
 }
 
 .lightbox {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   position: relative;
   z-index: 100;
   width: 100%;
@@ -368,4 +368,10 @@ nav img {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+#posibility {
+  display: block;
+  margin-bottom: -0.5em;
+  font-size: xx-large;
 }
