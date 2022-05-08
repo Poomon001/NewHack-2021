@@ -13,44 +13,6 @@ const Content = ({ setAboutRef, setInstructionRef }) => {
       </h1>
       <Upload />
       <About setAboutRef={setAboutRef} />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Instruction setInstructionRef={setInstructionRef} />
       <br />
       <br />

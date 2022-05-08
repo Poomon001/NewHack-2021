@@ -204,11 +204,27 @@ nav img {
   top: 13em;
 }
 
+/* .wave {
+  background-image: linear-gradient(white 10%, skyblue 40%, white 90%);
+  height: 20em;
+} */
+
+.wave1 {
+  height: 10em;
+  background-image: linear-gradient(white 10%, skyblue 90%);
+}
+.wave2 {
+  height: 10em;
+  background-image: linear-gradient(skyblue 10%, white 90%);
+}
+.About {
+  background-color: skyblue;
+}
 .Instruction,
 .About {
   position: relative;
   text-align: center;
-  top: 40em;
+  top: 20em;
 }
 
 .Instruction h4,
