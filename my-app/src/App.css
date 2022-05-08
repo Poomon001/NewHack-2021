@@ -5,6 +5,9 @@
   overflow: inherit;
 }
 
+#uploader {
+  border: thick solid red;
+}
 #body {
   display: block;
 }
@@ -81,6 +84,7 @@
   border: 2px dashed skyblue;
   border-radius: 10px;
   box-shadow: 0px 5px 16px -2px rgb(42 115 217 / 60%);
+  top: 0%;
 }
 
 .nav-links {
@@ -147,9 +151,13 @@
   }
 }
 
-div img {
+#logo {
   width: 75px;
   border-radius: 100px;
+}
+
+#file {
+  width: 75px;
 }
 
 nav {
@@ -177,13 +185,13 @@ nav img {
   background-color: #0099ff;
   background-size: cover;
   color: red;
-  width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  max-width: 50%;
   height: 200px;
   visibility: hidden;
+  z-index: 200;
+  cursor: pointer;
 }
 
 #popUp::after {
@@ -202,12 +210,12 @@ nav img {
 .topContent {
   position: relative;
   top: 13em;
+  width: 100%;
+  left: 0%;
 }
-
-/* .wave {
-  background-image: linear-gradient(white 10%, skyblue 40%, white 90%);
-  height: 20em;
-} */
+.bottmoContainer {
+  position: relative;
+}
 
 .wave1 {
   height: 10em;
@@ -215,10 +223,13 @@ nav img {
 }
 .wave2 {
   height: 10em;
-  background-image: linear-gradient(skyblue 10%, white 90%);
+  background-image: linear-gradient(skyblue 10%, steelblue 90%);
 }
 .About {
   background-color: skyblue;
+}
+.Instruction {
+  background-color: steelblue;
 }
 .Instruction,
 .About {
@@ -229,14 +240,18 @@ nav img {
 
 .Instruction h4,
 .About h4 {
-  color: #f44336;
-  font-size: 20px;
+  color: white;
+  font-size: xx-large;
+  display: inline-block;
+  margin: revert;
+  font-weight: 900;
 }
 
 .Instruction p,
 .About p {
-  color: purple;
-  font-size: 20px;
+  color: black;
+  font-size: 24px;
+  margin: 0em 1em;
 }
 
 .Instruction h4::after,
@@ -244,7 +259,7 @@ nav img {
   content: "";
   width: 0%;
   height: 2px;
-  background: #f44336;
+  background: white;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -264,9 +279,10 @@ nav img {
 }
 
 .loader {
-  position: fixed;
-  left: 50%;
+  position: absolute;
   transform: translate(-50%, -50%);
+  z-index: 100;
+  left: 50%;
 }
 
 .lightboxButton {
@@ -388,6 +404,29 @@ nav img {
 
 #posibility {
   display: block;
-  margin-bottom: -0.5em;
   font-size: xx-large;
+  top: 30px;
+  position: relative;
+}
+
+#redFlag {
+  border-radius: 10px;
+  width: 40%;
+  position: relative;
+  float: left;
+  margin-left: 5em;
+  padding: 1em;
+  background-color: #fff;
+  border: 2px solid #222;
+  box-shadow: 0px 5px 16px -2px rgb(42 115 217 / 100%);
+  cursor: pointer;
+}
+
+#aboutLists {
+  position: relative;
+  float: right;
+}
+
+.subHeader {
+  font-size: x-large;
 }

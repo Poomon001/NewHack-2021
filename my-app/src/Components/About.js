@@ -1,4 +1,6 @@
 import React, { useRef, useEffect } from "react";
+import RedFlag from "./RedFlag";
+import AboutDetails from "./AboutDetails";
 const About = (props) => {
   const { setAboutRef } = props;
   const ref = useRef(null);
@@ -9,15 +11,17 @@ const About = (props) => {
     <section className="About">
       <div className="wave1" />
       <h4 ref={ref}>ABOUT</h4>
-
       <p>
-        Our plan is to provide peace of mind to the community by allowing them
-        to protect their privacy by checking suspicious activities using our web
-        application.{" "}
+        Our project is to provide peace of mind to the community by allowing
+        them to protect their privacy by checking suspicious email using our web
+        application. We consider Social Engineering Red Flags to implement this
+        phishing evaluator.
       </p>
       <br />
       <br />
       <br />
+      <RedFlag />
+      <AboutDetails />
       <br />
       <br />
       <br />
@@ -53,7 +57,6 @@ const About = (props) => {
       <br />
       <br />
       <br />
-      <div className="wave2" />
     </section>
   );
 };
