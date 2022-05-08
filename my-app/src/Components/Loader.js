@@ -5,7 +5,7 @@ const Loader = ({ area }) => {
   const { promiseInProgress } = usePromiseTracker({ area: area });
 
   return (
-    <div className="loader App">
+    <div className="loader">
       {promiseInProgress && (
         <Audio
           height="80"
