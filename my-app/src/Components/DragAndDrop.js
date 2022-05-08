@@ -6,7 +6,7 @@ import { trackPromise } from "react-promise-tracker";
 import { useResult } from "./util/useResult";
 import { useLightbox } from "./util/useLightbox";
 
-const DragAndDrop = ({ setOpen }) => {
+const DragAndDrop = () => {
   const result = useResult();
   const lightbox = useLightbox();
 
@@ -46,7 +46,7 @@ const DragAndDrop = ({ setOpen }) => {
     <>
       {/* upload form */}
       <div {...getRootProps()}>
-        <input {...getInputProps()} />
+        <input {...getInputProps()} accept=".eml" />
         {isDragActive ? (
           <>
             <span className="Name">
