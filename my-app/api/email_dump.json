@@ -226,15 +226,15 @@
         ],
         "received_domain": [
             "m44-1.mailgun.net",
-            "api-n01.prod.us-west-2.postgun.com",
-            "mx.google.com"
+            "mx.google.com",
+            "api-n01.prod.us-west-2.postgun.com"
         ],
         "received_foremail": [
             "poomon2542@gmail.com"
         ],
         "received_ip": [
-            "2002:a5d:6541::",
-            "69.72.44.1"
+            "69.72.44.1",
+            "2002:a5d:6541::"
         ],
         "subject": "Happy New Year! What are your new year's resolutions?",
         "to": [

@@ -15,48 +15,19 @@ const About = (props) => {
         Our project is to provide peace of mind to the community by allowing
         them to protect their privacy by checking suspicious email using our web
         application. We consider Social Engineering Red Flags to implement this
-        phishing evaluator.
+        phishing email evaluator.
       </p>
       <br />
       <br />
       <br />
       <RedFlag />
-      <AboutDetails />
+      <br />
+      <br />
+      <div style={{ fontWeight: "bold" }}>Click Image to Open</div>
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      {/* <AboutDetails /> */}
     </section>
   );
 };

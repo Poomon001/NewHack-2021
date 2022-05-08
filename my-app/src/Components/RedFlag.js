@@ -13,7 +13,7 @@ function redFlag() {
     <SRLWrapper options={options}>
       <img
         src="social_engineering_reg_flags.jpg"
-        alt="Eocial Engineer Red Elag"
+        alt="Social Engineer Red Elag"
         id="redFlag"
       ></img>
     </SRLWrapper>

@@ -413,8 +413,6 @@ nav img {
   border-radius: 10px;
   width: 40%;
   position: relative;
-  float: left;
-  margin-left: 5em;
   padding: 1em;
   background-color: #fff;
   border: 2px solid #222;
@@ -423,10 +421,19 @@ nav img {
 }
 
 #aboutLists {
-  position: relative;
-  float: right;
+  position: absolute;
 }
 
 .subHeader {
   font-size: x-large;
+}
+
+.step {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 1em;
+  background-color: #fff;
+  border: 2px solid #222;
 }
