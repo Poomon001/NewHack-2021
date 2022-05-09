@@ -1,24 +1,28 @@
 [
     [
         "",
-        "Hello?\r\n",
+        "Audio Authenticated Available! Avoid Bank Benefits! \r\n\r\nHi, I am heer with an ouffer to get you money!!!! Yay!!!\r\n\r\n",
         [
             [
                 "Content-Type",
                 "text/plain; charset=\"UTF-8\""
             ]
         ],
-        "000000000000c9a8d005d031f1d3"
+        "00000000000052415305d021a081"
     ],
     [
-        "",
-        "<div dir=\"ltr\">Hello?</div>\r\n",
+        "quoted-printable",
+        "<div dir=\"ltr\">Audio Authenticated Available! Avoid Bank Benefits! <div><br></div><div>Blank line above</div><div><br></div><div><a href=\"http://google.com/\" target=\"_blank\">google.com</a>\u00a0- Correct link</div><div><br></div><div><a href=\"http://randomlink.org/qrqwrqwrqwrqwrqwrqwr/qwrqwrqwrqwrqwrqw/rqwrqwrqwrqwrqwrqwrqwrqwr\" target=\"_blank\">Sample Text</a><br></div><div>Different text from link</div></div>\r\n",
         [
             [
                 "Content-Type",
                 "text/html; charset=\"UTF-8\""
+            ],
+            [
+                "Content-Transfer-Encoding",
+                "quoted-printable"
             ]
         ],
-        "000000000000c9a8d005d031f1d3"
+        "00000000000052415305d021a081"
     ]
 ]
