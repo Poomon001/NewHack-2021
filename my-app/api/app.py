@@ -1,11 +1,12 @@
-from flask import Flask, request
-from flask_cors import CORS
+from flask import Flask, request, send_from_directory
+from flask_cors import CORS, cross_origin
 from backend import calculate_score
 
 app = Flask(__name__, static_folder="../build")
-cors = CORS(app)
+CORS(app)
 
 @app.route("/postAPI", methods=["POST"])
+@cross_origin()
 def post():
     score = [0,0,0,0,0,0,0]
     req = request.data
@@ -19,6 +20,9 @@ def post():
             score[i] = round(((score[i]/total)*100),2) 
     else:
         score[6] = 0
+    
+    print(score)
+
     return {"sender": score[0],
             "subject": score[2], 
             "cc": score[1],
@@ -28,5 +32,10 @@ def post():
             "total": score[6]
             }
 
+@app.route('/')
+@cross_origin()
+def serve():
+    return send_from_directory(app.static_folder, 'index.html')
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
