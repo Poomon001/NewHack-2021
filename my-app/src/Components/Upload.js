@@ -13,7 +13,7 @@ function Upload() {
     area: "email-area",
     delay: 0,
   });
-  const [width, height] = useWindowSize();
+  const [width] = useWindowSize();
 
   if (width > 536) {
   }

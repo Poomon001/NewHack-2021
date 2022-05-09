@@ -1,6 +1,6 @@
 import NavBar from "./NavBar";
 import Content from "./Content";
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function Body() {
   const [aboutRef, setAboutRef] = useState(null);

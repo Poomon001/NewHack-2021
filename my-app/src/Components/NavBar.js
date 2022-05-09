@@ -1,6 +1,4 @@
-import { useLightbox } from "./util/useLightbox";
 const NavBar = ({ scroll, aboutRef, instructionRef }) => {
-  const isOpen = useLightbox().isOpen;
   return (
     <nav className="nav-links">
       <a className="logo" href="/">

@@ -19,9 +19,6 @@ def post():
             score[i] = round(((score[i]/total)*100),2) 
     else:
         score[6] = 0
-    
-    print(score)
-
     return {"sender": score[0],
             "subject": score[2], 
             "cc": score[1],

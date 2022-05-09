@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import RedFlag from "./RedFlag";
-import AboutDetails from "./AboutDetails";
 const About = (props) => {
   const { setAboutRef } = props;
   const ref = useRef(null);
