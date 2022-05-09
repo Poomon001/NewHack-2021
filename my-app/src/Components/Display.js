@@ -14,10 +14,10 @@ const Display = () => {
   let graphStyle1 = {
     position: "relative",
     float: "left",
-    top: type1 == 2 ? "8.5em" : "7em",
-    width: type1 == 2 ? "35%" : "25%",
+    top: type1 === 2 ? "8.5em" : "7em",
+    width: type1 === 2 ? "35%" : "25%",
     margin:
-      type1 == 2
+      type1 === 2
         ? `0em 0em 0em calc(${width / 365}em)`
         : `0em 0em 0em calc(${width / 170}em)`,
     backgroundColor: "white",
@@ -27,11 +27,11 @@ const Display = () => {
 
   let graphStyle2 = {
     position: "relative",
-    top: type2 == 2 ? "8.5em" : "7em",
+    top: type2 === 2 ? "8.5em" : "7em",
     float: "right",
-    width: type2 == 2 ? "35%" : "25%",
+    width: type2 === 2 ? "35%" : "25%",
     margin:
-      type2 == 2
+      type2 === 2
         ? `0em calc(${width / 285}em) 0em 0em`
         : `0em calc(${width / 150}em) 0em 0em`,
     backgroundColor: "white",
@@ -53,16 +53,16 @@ const Display = () => {
   if (width < 915) {
     const diff = (915 - width) / 70;
     graphStyle1 = {
-      top: type1 == 2 ? "16.3em" : "15em",
-      width: type1 == 2 ? `calc(30% + ${diff}em)` : `calc(30% + ${diff}em)`,
+      top: type1 === 2 ? "16.3em" : "15em",
+      width: type1 === 2 ? `calc(30% + ${diff}em)` : `calc(30% + ${diff}em)`,
       position: "fixed",
       left: "50%",
       transform: "translate(-50%, -50%)",
     };
 
     graphStyle2 = {
-      top: type2 == 2 ? "77.7%" : "75%",
-      width: type2 == 2 ? `calc(30% + ${diff}em)` : `calc(30% + ${diff}em)`,
+      top: type2 === 2 ? "77.7%" : "75%",
+      width: type2 === 2 ? `calc(30% + ${diff}em)` : `calc(30% + ${diff}em)`,
       position: "fixed",
       left: "50%",
       transform: "translate(-50%, -50%)",
@@ -79,16 +79,16 @@ const Display = () => {
   if (height > 800) {
     const diffH = (915 - width) / 70;
     graphStyle1 = {
-      top: type1 == 2 ? "37.3%" : "35%",
-      width: type1 == 2 ? `calc(30% + ${diffH}em)` : `calc(30% + ${diffH}em)`,
+      top: type1 === 2 ? "37.3%" : "35%",
+      width: type1 === 2 ? `calc(30% + ${diffH}em)` : `calc(30% + ${diffH}em)`,
       position: "fixed",
       left: "50%",
       transform: "translate(-50%, -50%)",
     };
 
     graphStyle2 = {
-      top: type2 == 2 ? "72.7%" : "70.5%",
-      width: type2 == 2 ? `calc(30% + ${diffH}em)` : `calc(30% + ${diffH}em)`,
+      top: type2 === 2 ? "72.7%" : "70.5%",
+      width: type2 === 2 ? `calc(30% + ${diffH}em)` : `calc(30% + ${diffH}em)`,
       position: "fixed",
       left: "50%",
       transform: "translate(-50%, -50%)",
@@ -104,8 +104,8 @@ const Display = () => {
     <>
       <div style={wrapper} id="wripper">
         <h1 id="posibility">
-          <span class="suffix">The Phishing Posibility:</span>{" "}
-          <span class="prefix">{high}%</span>
+          <span className="suffix">The Phishing Posibility:</span>{" "}
+          <span className="prefix">{high}%</span>
         </h1>
         <div style={graphStyle1} id="left">
           <Factors

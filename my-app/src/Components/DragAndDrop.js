@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect } from "react";
+import React from "react";
 // https://react-dropzone.js.org/
 import { useDropzone } from "react-dropzone";
 import Request from "../Apis/Request";
@@ -10,7 +10,7 @@ const DragAndDrop = () => {
   const result = useResult();
   const lightbox = useLightbox();
 
-  const onDrop = useCallback((acceptedFiles) => {
+  const onDrop = (acceptedFiles) => {
     const [file] = acceptedFiles;
     const reader = new FileReader();
 
@@ -32,13 +32,12 @@ const DragAndDrop = () => {
       false
     );
     if (file) {
-      console.log("hello");
       reader.readAsText(file);
       var x = document.getElementById("popUp");
       x.style.visibility = "visible";
       x.dataset.label = file.name;
     }
-  });
+  };
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({ onDrop });
 
