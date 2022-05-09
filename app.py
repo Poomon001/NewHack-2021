@@ -1,6 +1,6 @@
 from flask import Flask, request, send_from_directory
 from flask_cors import CORS, cross_origin
-from util.backend import calculate_score
+from backend import calculate_score
 
 app = Flask(__name__, static_folder='my-app/build', static_url_path='')
 CORS(app)
@@ -31,6 +31,11 @@ def post():
             "attachments": score[5],
             "total": score[6]
             }
+
+@app.route("/getAPI", methods=["GET"])
+@cross_origin()
+def get():
+    return {"test":"foobar"}
 
 @app.route('/')
 @cross_origin()

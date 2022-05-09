@@ -182,20 +182,20 @@
                 ],
                 "date": "2021-11-05T00:55:26-07:00",
                 "from": [
-                    "mail-sor-f41.google.com",
-                    "209.85.220.41"
+                    "209.85.220.41",
+                    "mail-sor-f41.google.com"
                 ],
                 "src": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41]) by mx.google.com with smtps id ji9sor272608ejc.52.2021.11.06.09.55.26 (google transport security); fri, 05 nov 2021 00:55:26 -0700 (pdt)",
                 "with": "smtps id ji9sor272608ejc.52.2021.11.06.09.55.26 (google transport security)"
             }
         ],
         "received_domain": [
-            "mail-sor-f41.google.com",
-            "mx.google.com"
+            "mx.google.com",
+            "mail-sor-f41.google.com"
         ],
         "received_ip": [
-            "2002:a6b:6b01::",
-            "209.85.220.41"
+            "209.85.220.41",
+            "2002:a6b:6b01::"
         ],
         "subject": "Audio Authenticated Available! Avoid Bank Benefits! ",
         "to": [
