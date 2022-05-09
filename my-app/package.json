@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-  "homepage": "https://poomon001.github.io/NewHack-2021/",
   "version": "0.1.0",
   "proxy": "https://phishingevaluator.herokuapp.com/",
   "private": true,
@@ -26,12 +25,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "server": "cd ../api && python app.py",
+    "server": "cd .. && python app.py",
     "client": "npm start",
     "dev": "concurrently -n 'client,server' -c 'blue,green' \"npm run client\" \"npm run server\"",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -50,8 +47,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
