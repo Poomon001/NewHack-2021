@@ -9,7 +9,6 @@ import SimpleReactLightbox from "simple-react-lightbox";
 function App() {
   return (
     <div className="App">
-      <title>Phishing Evaluator</title>
       <LightboxProvider>
         <ResultProvider>
           <Lightbox>
