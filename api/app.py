@@ -2,7 +2,7 @@ from flask import Flask, request, send_from_directory
 from flask_cors import CORS, cross_origin
 from backend import calculate_score
 
-app = Flask(__name__, static_folder="../build")
+app = Flask(__name__, static_folder="my-app/build")
 CORS(app)
 
 @app.route("/postAPI", methods=["POST"])
