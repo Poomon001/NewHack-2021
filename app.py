@@ -32,6 +32,11 @@ def post():
             "total": score[6]
             }
 
+@app.route("/getAPI", methods=["POST"])
+@cross_origin()
+def post():
+    return {"test":"foobar"}
+
 @app.route('/')
 @cross_origin()
 def serve():
