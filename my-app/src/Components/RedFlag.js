@@ -10,13 +10,20 @@ function redFlag() {
     },
   };
   return (
-    <SRLWrapper options={options}>
-      <img
-        src="social_engineering_reg_flags.jpg"
-        alt="Social Engineer Red Elag"
-        id="redFlag"
-      ></img>
-    </SRLWrapper>
+    <>
+      <p>
+        This infographic from KnowBe4 outlines major red flags to look for when
+        reading an email, and we utilized many of these in our project.
+      </p>
+      <br />
+      <SRLWrapper options={options}>
+        <img
+          src="social_engineering_reg_flags.jpg"
+          alt="Social Engineer Red Elag"
+          id="redFlag"
+        ></img>
+      </SRLWrapper>
+    </>
   );
 }
 
