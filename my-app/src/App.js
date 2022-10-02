@@ -5,6 +5,7 @@ import Display from "./Components/Display";
 import { ResultProvider } from "./Components/util/useResult";
 import Body from "./Components/Body";
 import SimpleReactLightbox from "simple-react-lightbox";
+import { AlertProvider } from "./Components/util/useAlert";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
             <Display />
           </Lightbox>
           <SimpleReactLightbox>
-            <Body />
+            <AlertProvider>
+              <Body />
+            </AlertProvider>
           </SimpleReactLightbox>
         </ResultProvider>
       </LightboxProvider>
