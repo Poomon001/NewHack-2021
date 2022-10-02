@@ -132,7 +132,7 @@ def length_check(address, score_total, constant_val):
 def sender_check(address):
     total = 0
     dom = re.split('@', address)[1]
-    if address in blocklist:
+    if dom in blocklist:
         return 27
     elif misspelled_address(address):
         return 27
@@ -210,8 +210,10 @@ def spell_check(text, score_limit):
 
 def hidden_body_urls(text):
 
+    #### Write regex to check every link in the email
+
     ##CHANGED LINE BELOW
-    urls = re.findall(r'<.*\/{2}([^@<>\/]*)\/*>', text)
+    urls = re.findall(r'<.*\/{2}([^@<>\/]*)\/*.*>', text)
 
     if len(urls) == 0:
         return 0
@@ -232,7 +234,7 @@ def hidden_body_urls(text):
         for d in r:
             ##CHANGED LINE BELOW
             if d == u:
-                utotal += 5
+                utotal += 1
 
         if 55 <= len(u) < 105:
             total += (math.exp(((len(u) - 55)*2) / 55.25) - 1)
@@ -245,11 +247,9 @@ def hidden_body_urls(text):
             total = 5
             break
 
-    total += (12 * (len(urls) / 4))
+    utotal = ((len(urls) - utotal) * 5) + (10 * (len(urls) / 5))
 
-    utotal = (len(urls) * 5) - (utotal / len(urls))
-
-    return total + utotal
+    return total + utotal if total + utotal <= 22 else 22
 
 
 def extension_check(extension):
@@ -316,6 +316,7 @@ def calculate_score(filename):
         for att in header_info[4]:
             exts += extension_check(att[1])
 
+        exts = 6 if exts > 6 else exts
         # print("    Attachments Extensions Score: " + str(exts))
 
         ## Spelling
