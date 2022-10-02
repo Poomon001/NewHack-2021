@@ -10,7 +10,6 @@ function Body() {
   const isAlert = useAlert().alert;
 
   const scroll = (e, ref) => {
-    console.log(ref);
     e.preventDefault();
     window.scrollTo({
       behavior: "smooth",

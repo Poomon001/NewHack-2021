@@ -5,7 +5,6 @@ const About = (props) => {
   const ref = useRef(null);
 
   useEffect(() => {
-    console.log(ref);
     setAboutRef(ref);
   });
   return (
