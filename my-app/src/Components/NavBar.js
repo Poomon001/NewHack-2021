@@ -25,6 +25,14 @@ const NavBar = ({ scroll, aboutRef, instructionRef }) => {
             INSTRUCTION
           </a>
         </li>
+        <li style={{ textDecoration: "none" }}>
+          <a
+            href="https://github.com/Poomon001/NewHack-2021"
+            style={{ textDecoration: "none" }}
+          >
+            <div className="github">GitHub</div>
+          </a>
+        </li>
       </ul>
     </nav>
   );

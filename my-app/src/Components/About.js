@@ -3,7 +3,9 @@ import RedFlag from "./RedFlag";
 const About = (props) => {
   const { setAboutRef } = props;
   const ref = useRef(null);
+
   useEffect(() => {
+    console.log(ref);
     setAboutRef(ref);
   });
   return (
@@ -18,19 +20,6 @@ const About = (props) => {
       </p>
       <br />
       <br />
-      <br />
-      <h4 ref={ref}>What is Phishing?</h4>
-      <p>
-        As defined by phishing.org, "Phishing is a cybercrime in which a target
-        or targets are contacted by email, telephone or text message by someone
-        posing as a legitimate institution to lure individuals into providing
-        sensitive data such as personally identifiable information, banking and
-        credit card details, and passwords."
-      </p>
-      <br />
-      <br />
-      <br />
-      <h4 ref={ref}>Our Motivation</h4>
       <p>
         Our motivation for this project was to help people recognize the common
         signs of a phishing email to potentially minimize damages such as

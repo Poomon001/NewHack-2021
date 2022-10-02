@@ -9,8 +9,8 @@ function Alert() {
   };
   setTimeout(handleClick, 5000);
   return (
-    <div class="alert">
-      <span class="closebtn" onClick={handleClick}>
+    <div className="alert">
+      <span className="closebtn" onClick={handleClick}>
         &times;
       </span>
       <strong>Danger!</strong> Indicates a dangerous or potentially negative

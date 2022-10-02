@@ -32,6 +32,22 @@
   margin-top: 1em;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.github {
+  color: #fff;
+}
+
 .suffix {
   color: skyblue;
 }
@@ -108,7 +124,7 @@
   font-weight: bold;
 }
 
-.nav-links ul li::after {
+.nav-links ul .Pages::after {
   content: "";
   width: 0%;
   height: 2px;

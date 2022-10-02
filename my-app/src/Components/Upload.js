@@ -15,8 +15,6 @@ function Upload() {
   });
   const [width] = useWindowSize();
 
-  if (width > 536) {
-  }
   return (
     <>
       <section className="topContent">
