@@ -39,10 +39,7 @@ const DragAndDrop = () => {
     }
   };
 
-  const { getRootProps, getInputProps, isDragActive } = useDropzone({
-    onDrop,
-    acceptedFiles: ".eml",
-  });
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({onDrop});
 
   return (
     <>
