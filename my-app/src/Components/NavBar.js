@@ -25,6 +25,11 @@ const NavBar = ({ scroll, aboutRef, instructionRef }) => {
             INSTRUCTION
           </a>
         </li>
+        <li>
+          <a href="https://github.com/Poomon001/NewHack-2021">
+            <div className="github">GitHub</div>
+          </a>
+        </li>
       </ul>
     </nav>
   );

@@ -3,6 +3,7 @@ import RedFlag from "./RedFlag";
 const About = (props) => {
   const { setAboutRef } = props;
   const ref = useRef(null);
+
   useEffect(() => {
     setAboutRef(ref);
   });
@@ -15,6 +16,15 @@ const About = (props) => {
         percentage score along with a breakdown of the score corresponding to
         the risk of the email being used for phishing or other nefarious
         purposes.
+      </p>
+      <br />
+      <br />
+      <p>
+        Our motivation for this project was to help people recognize the common
+        signs of a phishing email to potentially minimize damages such as
+        identity theft and financial loss. In doing so, we developed an
+        automated tool that safely parses an email and reports its risk of being
+        a phishing email.
       </p>
       <br />
       <br />
