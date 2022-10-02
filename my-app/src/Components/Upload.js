@@ -31,7 +31,7 @@ function Upload() {
         ) : (
           shouldDisplay && <Button />
         )}
-      </section>
+      </section>{" "}
     </>
   );
 }

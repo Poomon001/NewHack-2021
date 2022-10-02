@@ -11,10 +11,10 @@ const About = (props) => {
       <div className="wave1" />
       <h4 ref={ref}>ABOUT</h4>
       <p>
-        Our project is to provide peace of mind to the community by allowing
-        them to protect their privacy by checking suspicious email using our web
-        application. We consider Social Engineering Red Flags to implement this
-        phishing email evaluator.
+        A web application that analyzes a .eml file (email) and assigns a
+        percentage score along with a breakdown of the score corresponding to
+        the risk of the email being used for phishing or other nefarious
+        purposes.
       </p>
       <br />
       <br />
@@ -26,7 +26,6 @@ const About = (props) => {
       <br />
       <br />
       <br />
-      {/* <AboutDetails /> */}
     </section>
   );
 };
