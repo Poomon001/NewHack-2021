@@ -115,8 +115,14 @@ The phishing risk is determined using six categories extracted from the email.
   - A simple method to run multiple commands concurrently
   - Used in our project to run both client- and server- sides concerently
 - [react-dropzone](https://react-dropzone.js.org/)
-  - A React hook to create a HTML5-compliant drag and drop zone for files.
+  - A React hook to create a HTML5-compliant drag and drop zone for files
   - Used in our project to create a drop zone to upload an .eml file
 - [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner)
-  - provides simple React SVG spinner component which can be implemented for async await operation before data loads to the view.
+  - provides simple React SVG spinner component which can be implemented for async await operation before data loads to the view
   - Used in our project to display a loading spinner while .eml file is processed
+- [react-promise-tracker](https://www.npmjs.com/package/react-promise-tracker)
+  - Track blocking promises and control a display of loading indicators
+  - Used in our project to track a duration for a loading spinner while .eml file is processed
+- [simple-react-lightbox](https://www.npmjs.com/package/simple-react-lightbox)
+  - Provide a lightbox functionality on a set of images
+  - Used in our project to enlarge an Engineering Red Flag image
