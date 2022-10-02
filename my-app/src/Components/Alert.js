@@ -13,8 +13,7 @@ function Alert() {
       <span className="closebtn" onClick={handleClick}>
         &times;
       </span>
-      <strong>Danger!</strong> Indicates a dangerous or potentially negative
-      action.
+      <strong>Wrong File</strong> Please upload a .eml file.
     </div>
   );
 }
