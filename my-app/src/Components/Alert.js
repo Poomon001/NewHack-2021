@@ -7,7 +7,7 @@ function Alert() {
   const handleClick = () => {
     setAlert(false);
   };
-  setTimeout(handleClick, 5000);
+  setTimeout(handleClick, 3000);
   return (
     <div className="alert">
       <span className="closebtn" onClick={handleClick}>
