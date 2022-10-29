@@ -108,6 +108,10 @@ The phishing risk is determined using six categories extracted from the email.
 - [requests](https://pypi.org/project/requests/)
   - A very popular HTTP library for Python with many capabilities
   - Used in our project to scrape a raw list of the top website domains instead of having to store the list locally
+  
+  
+### JavaScript
+
 - [chart.js](https://www.chartjs.org/)
   - A free, open-source JavaScript library for data visualization, which supports eight chart types
   - Used in our project to display the percentage of overall risk contribution and phishing possibility
