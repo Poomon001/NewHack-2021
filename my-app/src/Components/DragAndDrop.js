@@ -1,49 +1,91 @@
-import React, {useState} from "react";
-import {useDropzone} from 'react-dropzone';
-import Form from "./Form";
-
+import React from "react";
+// https://react-dropzone.js.org/
+import { useDropzone } from "react-dropzone";
+import Request from "../Apis/Request";
+import { trackPromise } from "react-promise-tracker";
+import { useResult } from "./util/useResult";
+import { useLightbox } from "./util/useLightbox";
+import { useAlert } from "./util/useAlert";
 
 const DragAndDrop = () => {
-    const {acceptedFiles, getRootProps, getInputProps} = useDropzone();
-    const [text, setText] = useState("")
-    const [toggler, setToggler] = useState(false);
+  const result = useResult();
+  const lightbox = useLightbox();
+  const alert = useAlert();
+  const setAlert = alert.setAlert;
 
-    const files = acceptedFiles.map(file => (
-        <li key={file.path}>
-            {file.path} - {file.size} bytes
-        </li>
-    ));
+  const onDrop = (acceptedFiles) => {
+    const ext = acceptedFiles[0].name.split(".").pop();
 
-    const previewFile = () => {
-        const [file] = document.querySelector('input[type=file]').files;
-        const reader = new FileReader();
+    if (ext === "eml") {
+      const [file] = acceptedFiles;
+      const reader = new FileReader();
 
-        reader.addEventListener("load", () => {
-            // this will then display a text file
-            setText(reader.result)
-        }, false);
-
-        if (file) {
-            reader.readAsText(file);
-            var x = document.getElementById("popUp");
-            x.style.display = "block"
-            x.dataset.label = file.name;
-        }
+      reader.addEventListener(
+        "load",
+        () => {
+          let text = reader.result;
+          trackPromise(
+            // send a post text to Flask api and take a response from the api
+            Request(text).then((res) => {
+              // set the returned result from api
+              result.setResult(res);
+              // set to open a graph
+              lightbox.setShouldDisplay(true);
+            }),
+            "email-area"
+          ).catch((err) => console.log("error on DragAndDrop:", err));
+        },
+        false
+      );
+      if (file) {
+        reader.readAsText(file);
+        var x = document.getElementById("popUp");
+        x.style.visibility = "visible";
+        x.dataset.label = file.name;
+      }
+    } else {
+      setAlert(true);
     }
+  };
 
-    return (
-        <section className="container">
-            <div {...getRootProps({className: 'dropzone'})} >
-                <input type="file" {...getInputProps()} onChange={previewFile} accept=".eml"/>
-                {/*<p className="Name">Click to upload file</p>*/}
-                <span className="Name">Click to upload file<img src="file.png"/></span>
-                <div id="popUp" style={{display: "none"}}><img src="file.png" style={{radiant: "red"}}/></div>
-            </div>
-            <Form text={text}/>
-            <button className="Name" onClick={() => setToggler(!toggler)}>
-                Toggle Lightbox
-            </button>
-        </section>);
-}
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
+    onDrop,
+  });
 
-export default DragAndDrop
+  return (
+    <>
+      {/* upload form */}
+      <div {...getRootProps()}>
+        <input {...getInputProps()} accept=".eml" id="uploader" />
+        {isDragActive ? (
+          <>
+            <span className="Name">
+              Drop file here...
+              <img src="file.png" alt="file" id="file" />
+            </span>
+            <span>
+              {(document.getElementById("popUp").style.visibility = "hidden")}
+            </span>
+            <span>
+              {document.getElementById("lightboxButton") &&
+                (document.getElementById("lightboxButton").style.visibility =
+                  "hidden")}
+            </span>
+          </>
+        ) : (
+          <>
+            <span className="Name">
+              Click or drop file here
+              <img src="file.png" alt="file" id="file" />
+            </span>
+          </>
+        )}
+        <div id="popUp">
+          <img src="file.png" alt="file" style={{ radiant: "red" }} id="file" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default DragAndDrop;

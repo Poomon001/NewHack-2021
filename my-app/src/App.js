@@ -1,38 +1,29 @@
-import './App.css';
-import Todo from "./Components/Todo";
-import DragAndDrop from "./Components/DragAndDrop";
-import Form from "./Components/Form";
-import React, {useState} from "react"
+import "./App.css";
+import Lightbox from "./Components/Lightbox";
+import { LightboxProvider } from "./Components/util/useLightbox";
 import Display from "./Components/Display";
+import { ResultProvider } from "./Components/util/useResult";
+import Body from "./Components/Body";
+import SimpleReactLightbox from "simple-react-lightbox";
+import { AlertProvider } from "./Components/util/useAlert";
 
 function App() {
-    const [todo, setTodo] = useState([])
-    return (
-        <>
-            <div className="nav-links">
-                <nav>
-                    <a className="logo"><img src="new-logo.png" alt=""/></a>
-                    <ul>
-                        <li className="Pages"><a href="">HOME</a></li>
-                        <li className="Pages"><a href="">ABOUT</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <section className="About">
-                <h4>ABOUT</h4>
-                <p>Our plan is to provide peace of mind to the community by allowing them to protect their privacy by
-                    checking suspicious activities using our web application. </p>
-            </section>
-
-            <div className="App">
-                <Todo todo={todo} setTodo={setTodo}/>
-                <Form/>
-                <Display todo={todo}/>
-                <DragAndDrop/>
-            </div>
-        </>
-    );
+  return (
+    <div className="App">
+      <LightboxProvider>
+        <ResultProvider>
+          <Lightbox>
+            <Display />
+          </Lightbox>
+          <SimpleReactLightbox>
+            <AlertProvider>
+              <Body />
+            </AlertProvider>
+          </SimpleReactLightbox>
+        </ResultProvider>
+      </LightboxProvider>
+    </div>
+  );
 }
 
 export default App;
