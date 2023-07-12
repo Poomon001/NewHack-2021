@@ -190,8 +190,8 @@
             }
         ],
         "received_domain": [
-            "mx.google.com",
-            "mail-sor-f41.google.com"
+            "mail-sor-f41.google.com",
+            "mx.google.com"
         ],
         "received_ip": [
             "209.85.220.41",
