@@ -2,8 +2,9 @@
 
 A web application that analyzes a .eml file (email) and assigns a percentage score along with a breakdown of the score corresponding to the risk of the email being used for phishing or other nefarious purposes.
 
-- Website (try our app!): (https://phishingevaluator.herokuapp.com)
 - Source code: (https://github.com/Poomon001/NewHack-2021)
+
+![alt text](https://raw.githubusercontent.com/Poomon001/NewHack-2021/master/my-app/public/step4.jpg)
 
 ## Project Background
 
@@ -40,11 +41,11 @@ To extract the most accurate information from an email, we decided to use .eml f
 
 To download a .eml file from gmail, first open the email and click the three vertical dots at the top right of the message to open the options menu.
 
-![alt text](https://phishingevaluator.herokuapp.com/step1.jpg "Opening the options menu")
+![alt text](https://raw.githubusercontent.com/Poomon001/NewHack-2021/master/my-app/public/step1.jpg)
 
 Next, click the button that says "Download message" to download the .eml file to your computer.
 
-![alt text](https://phishingevaluator.herokuapp.com/step2.jpg "Downloading the message")
+![alt text](https://raw.githubusercontent.com/Poomon001/NewHack-2021/master/my-app/public/step2.jpg)
 
 That is it. Now you can use your newly downloaded .eml file and test it with the app.
 
